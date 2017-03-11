@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>修改密码</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="../../css/style.css">
+</head>
+<body>
+    <div class="teacher_detail search_pasd correct_pasd">
+        <div class="tea_bak">
+            <h2>修改密码</h2>
+        </div>
+        <div class="tea_rej">
+           <form name="form1" method="post" action="2.html" onsubmit="return check()">
+                    <label for="male">旧密码：</label>
+                    <p><input id="text1" type="text" name="text1" onblur="check()"></p>
+                    <br/>
+                    <label for="male">新密码：</label>
+                    <p><input id="text2" type="password" name="text2" onblur="check()"></p>
+                    <p>6-20位字母、数字组成</p>
+                    <br/>
+                    <label for="male">确认密码</label>
+                    <p><input id="text3" type="password" name="text3" onblur="check()"></p>
+                    <br/>
+                    <a href="javascript:void(0)" class="rejc save">保存</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

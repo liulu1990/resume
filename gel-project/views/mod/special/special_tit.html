@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>专题学习</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="../../css/style.css">
+</head>
+
+<body>
+    <!--登录条 start-->
+    <div class="lo_box">
+        <div class="hd_login clearfix">
+            <div class="log_lf">
+                <a href="javascript:void(0)" class="wdz">帮助文档</a>
+                <a href="javascript:;" onclick=layeraw();>反馈意见</a>
+            </div>
+            <div class="log_rf clearfix" style="display:none;">
+                <p>
+                    <input type="text" value="用户名" class="user" onfocus="if(value=='用户名') {value=''}" onblur="if (value=='') {value='用户名'}">
+                </p>
+                <p>
+                    <input type="password" value="" class="password" placeholder="请输入您的密码">
+                </p>
+                <a href="javascript:void(0)" class="input_resg">登录</a>
+                <a href="javascript:;" onclick=layerrg(); class="input_resg">注册</a>
+                <a href="javascript:;" onclick=layerpd(); class="input_pd">忘记密码</a>
+            </div>
+            <div class="log_rf_on clearfix">
+                <a href="javascript:;" onclick=layertw();><img src="../../image/common/dltb.jpg" /></a>
+                <span class="input_com">欢迎您，</span>
+                <a href="javascript:;" onclick=layertw(); class="input_us">用户名</a>
+                <a href="javascript:;" onclick=layerpd(); class="input_pad">[修改密码]</a>
+                <p>
+                    <input type="button" name="user" value="后台" class="input_text01">
+                </p>
+                <p>
+                    <input type="button" name="paddword" value="退出" class="input_text02">
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--登录条 end-->
+    <!--头部 start-->
+    <div class="head">
+        <div class="head_logo clearfix">
+            <div class="fl_column">
+                <a href="javascript:void(0)" class="logo"><img src="../../image/common/logo.jpg" /></a>
+                <a href="javascript:void(0)"><img src="../../image/common/znlg.jpg" /></a>
+            </div>
+            <div class="fr_column">
+                <div class="search">
+                    <label><a href="javascript:void(0)" class="key">关键字</a><a href="javascript:void(0)">课程</a><a href="javascript:void(0)">专题</a><a href="javascript:void(0)">资料</a></label>
+                    <p>
+                        <input type="text" value="搜索课程、专题或资料" onfocus="if(value=='搜索课程、专题或资料') {value=''}" onblur="if (value=='') {value='搜索课程、专题或资料'}" />
+                    </p>
+                    <p>
+                        <a href="javascript:void(0)">
+                            <button></button>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--头部 end-->
+    <!--导航 start-->
+    <div class="header-con clearfix">
+        <ul class="header-nav">
+            <li class="head-li"><a href="../../index.html"><i class="icon icon-shouye4wode1"></i>首 页</a></li>
+            <li class="head-li"><a href="../personal/index.html"><i class="icon icon-user"></i>个人中心</a></li>
+            <li class="head-li"><a href="../supermarket/index.html"><i class="icon icon-xiaoxingchaoshi00"></i>课程超市</a></li>
+            <li class="head-li active"><a href="#"><i class="icon icon-zhuanti"></i>专题学习</a></li>
+            <li class="head-li"><a href="../resource/index.html"><i class="icon icon-ziliao"></i>学习资源</a></li>
+            <li class="head-li"><a href="../faculty/index.html"><i class="icon icon-peixun"></i>培训师资</a></li>
+            <li class="head-li"><a href="../info/index.html"><i class="icon icon-xinxi"></i>信息中心</a></li>
+            <li class="head-li last"><a href="../rank/mod_core.html"><i class="icon icon-home"></i>排行榜</a></li>
+        </ul>
+    </div>
+    <!--导航 end-->
+    <!--内容 start-->
+    <div class="content_area">
+        <div class="tit_special"><img src="../../mod/special/image/special_tit.jpg"></div>
+        <div class="tit_text01 tt_spe">
+            <h3>编者按</h3>
+        </div>
+        <div class="white_block">
+            <p>2016年3月11日，中共教育部党组印发《关于做好高等学校“学党章党规、学系列讲话，做合格党员”学习教育有关工作的通知》（教党〔2016〕11号），对高等学校开展“两学一做”学习教育作出安排。文件指出，开展“两学一做”学习教育，是落实党章关于加强党员教育管理要求、面向全体党员深化党内教育的重要实践，是巩固拓展党的群众路线教育实践活动和“三严三实”专题教育成果，推动党内教育从“关键少数”向广大党员拓展、从集中性教育向经常性教育延伸的重要举措，是加强党的思想政治建设的重要部署，对于推动全面从严治党向基层延伸、保持发展党的先进性和纯洁性具有重大意义。</p>
+        </div>
+        <div class="tit_text01 tt_sp">
+            <h3>课程分类 1</h3>
+            <em>共（<span>08</span>）课</em>
+        </div>
+        <div id="courselist">
+            <div class="kc_special kc_st clearfix">
+                <ul class="kcdb">
+                    <li>
+                        <div class="kclb_img">
+                            <a href="../supermarket/cource_detail.html" target="_blank"><img src="../../image/kc_01.jpg" /></a>
+                            <p><a href="../supermarket/cource_detail.html" target="_blank">课程具体文字介绍</a></p>
+                        </div>
+                        <div class="wb_area clearfix">
+                            <div class="wb_fl">
+                                <p>学时：20分</p>
+                                <p>讲师：具体姓名</p>
+                            </div>
+                            <div class="wb_fr">
+                                <p><span class="img_cource">学分：</span><span>60分</span></p>
+                                <p class="img_ct"><img src="../../image/rw.png" /><span>999人</span></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="kclb_img">
+                            <a href="../supermarket/cource_detail.html" target="_blank"><img src="../../image/kc_01.jpg" /></a>
+                            <p><a href="../supermarket/cource_detail.html" target="_blank">课程具体文字介绍</a></p>
+                        </div>
+                        <div class="wb_area clearfix">
+                            <div class="wb_fl">
+                                <p>学时：20分</p>
+                                <p>讲师：具体姓名</p>
+                            </div>
+                            <div class="wb_fr">
+                                <p><span class="img_cource">学分：</span><span>60分</span></p>
+                                <p class="img_ct"><img src="../../image/rw.png" /><span>999人</span></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="kclb_img">
+                            <a href="../supermarket/cource_detail.html" target="_blank"><img src="../../image/kc_01.jpg" /></a>
+                            <p><a href="../supermarket/cource_detail.html" target="_blank">课程具体文字介绍</a></p>
+                        </div>
+                        <div class="wb_area clearfix">
+                            <div class="wb_fl">
+                                <p>学时：20分</p>
+                                <p>讲师：具体姓名</p>
+                            </div>
+                            <div class="wb_fr">
+                                <p><span class="img_cource">学分：</span><span>60分</span></p>
+                                <p class="img_ct"><img src="../../image/rw.png" /><span>999人</span></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="kclb_img">
+                            <a href="../supermarket/cource_detail.html" target="_blank"><img src="../../image/kc_01.jpg" /></a>
+                            <p><a href="../supermarket/cource_detail.html" target="_blank">课程具体文字介绍</a></p>
+                        </div>
+                        <div class="wb_area clearfix">
+                            <div class="wb_fl">
+                                <p>学时：20分</p>
+                                <p>讲师：具体姓名</p>
+                            </div>
+                            <div class="wb_fr">
+                                <p><span class="img_cource">学分：</span><span>60分</span></p>
+                                <p class="img_ct"><img src="../../image/rw.png" /><span>999人</span></p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="tit_text01 tt_sp">
+                <h3>课程分类 2</h3>
+                <em>共（<span>08</span>）课</em>
+            </div>
+            <div class="kc_special kc_st clearfix">
+                <ul class="kcdb">
+                    <li>
+                        <div class="kclb_img">
+                            <a href="../supermarket/cource_detail.html" target="_blank"><img src="../../image/kc_01.jpg" /></a>
+                            <p><a href="../supermarket/cource_detail.html" target="_blank">课程具体文字介绍</a></p>
+                        </div>
+                        <div class="wb_area clearfix">
+                            <div class="wb_fl">
+                                <p>学时：20分</p>
+                                <p>讲师：具体姓名</p>
+                            </div>
+                            <div class="wb_fr">
+                                <p><span class="img_cource">学分：</span><span>60分</span></p>
+                                <p class="img_ct"><img src="../../image/rw.png" /><span>999人</span></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="kclb_img">
+                            <a href="../supermarket/cource_detail.html"><img src="../../image/kc_01.jpg" /></a>
+                            <p><a href="../supermarket/cource_detail.html">课程具体文字介绍</a></p>
+                        </div>
+                        <div class="wb_area clearfix">
+                            <div class="wb_fl">
+                                <p>学时：20分</p>
+                                <p>讲师：具体姓名</p>
+                            </div>
+                            <div class="wb_fr">
+                                <p><span class="img_cource">学分：</span><span>60分</span></p>
+                                <p class="img_ct"><img src="../../image/rw.png" /><span>999人</span></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="kclb_img">
+                            <a href="../supermarket/cource_detail.html" target="_blank"><img src="../../image/kc_01.jpg" /></a>
+                            <p><a href="../supermarket/cource_detail.html" target="_blank">课程具体文字介绍</a></p>
+                        </div>
+                        <div class="wb_area clearfix">
+                            <div class="wb_fl">
+                                <p>学时：20分</p>
+                                <p>讲师：具体姓名</p>
+                            </div>
+                            <div class="wb_fr">
+                                <p><span class="img_cource">学分：</span><span>60分</span></p>
+                                <p class="img_ct"><img src="../../image/rw.png" /><span>999人</span></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="last">
+                        <div class="kclb_img">
+                            <a href="../supermarket/cource_detail.html" target="_blank"><img src="../../image/kc_01.jpg" /></a>
+                            <p><a href="../supermarket/cource_detail.html" target="_blank">课程具体文字介绍</a></p>
+                        </div>
+                        <div class="wb_area clearfix">
+                            <div class="wb_fl">
+                                <p>学时：20分</p>
+                                <p>讲师：具体姓名</p>
+                            </div>
+                            <div class="wb_fr">
+                                <p><span class="img_cource">学分：</span><span>60分</span></p>
+                                <p class="img_ct"><img src="../../image/rw.png" /><span>999人</span></p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="bk_lfn">
+            <!--专题资料 start 8行,24字-->
+            <div class="clearfix">
+                <div class="special_fl">
+                    <div class="spe_cl">
+                        <h3>栏目名称具体文字</h3><span><a href="../resource/study_resource.html" target="_blank">更多>></a>
+                    </div>
+                    <ul class="news-list news-lly">
+                        <li><a href="../resource/themeAcDec.html" target="_blank">长春市人民政府关于林巍等同志任职巍等同志任职巍等</a><span>2016-06-24</span></li>
+                        <li><a href="../resource/themeAcDec.html" target="_blank">长春市第十四届人民代表大会常务委...</a><span>2016-06-24</span></li>
+                        <li><a href="../resource/themeAcDec.html" target="_blank">长春市人大常委会任免职名单</a><span>2016-06-24</span></li>
+                        <li><a href="../resource/themeAcDec.html" target="_blank">长春市人民政府关于林巍等同志任职...</a><span>2016-06-24</span></li>
+                        <li><a href="../resource/themeAcDec.html" target="_blank">长春市第十四届人民代表大会常务委...</a><span>2016-06-24</span></li>
+                        <li><a href="../resource/themeAcDec.html" target="_blank">长春市人大常委会任免职名单</a><span>2016-06-24</span></li>
+                        <li><a href="../resource/themeAcDec.html" target="_blank">长春市人民政府关于林巍等同志任职...</a><span>2016-06-24</span></li>
+                        <li><a href="../resource/themeAcDec.html" target="_blank">长春市第十四届人民代表大会常务委...</a><span>2016-06-24</span></li>
+                        </ul>
+                    </div>
+                    <!--专题资料 start 8行,24字-->
+                    <div class="special_fr">
+                        <div class="spe_cl">
+                            <h3>栏目名称具体文字</h3><span><a href="../resource/study_resource.html" target="_blank">更多>></a>
+                    </div>
+                    <ul class="news-list news-lly">
+                        <li><a href="../resource/themeAcDec.html" target="_blank">长春市人民政府关于林巍等同志任职巍等同志任职巍等...</a><span>2016-06-24</span></li>
+                            <li><a href="../resource/themeAcDec.html" target="_blank">长春市第十四届人民代表大会常务委...</a><span>2016-06-24</span></li>
+                            <li><a href="../resource/themeAcDec.html" target="_blank">长春市人大常委会任免职名单</a><span>2016-06-24</span></li>
+                            <li><a href="../resource/themeAcDec.html" target="_blank">长春市人民政府关于林巍等同志任职...</a><span>2016-06-24</span></li>
+                            <li><a href="../resource/themeAcDec.html" target="_blank">长春市第十四届人民代表大会常务委...</a><span>2016-06-24</span></li>
+                            <li><a href="../resource/themeAcDec.html" target="_blank">长春市人大常委会任免职名单</a><span>2016-06-24</span></li>
+                            <li><a href="../resource/themeAcDec.html" target="_blank">长春市人民政府关于林巍等同志任职...</a><span>2016-06-24</span></li>
+                            <li><a href="../resource/themeAcDec.html" target="_blank">长春市第十四届人民代表大会常务委...</a><span>2016-06-24</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clearfix">
+                        <div class="special_fl">
+                            <div class="spe_cl">
+                                <h3>栏目名称具体文字</h3><span><a href="../resource/study_resource.html" target="_blank">更多>></a>
+                    </div>
+                    <ul class="news-list news-lly">
+                        <li><a href="../resource/themeAcDec.html" target="_blank">长春市人民政府关于林巍等同志任职巍等同志任职巍等等同志任职巍等同志任职巍等...</a><span>2016-06-24</span></li>
+                                <li><a href="../resource/themeAcDec.html" target="_blank">长春市第十四届人民代表大会常务委...</a><span>2016-06-24</span></li>
+                                <li><a href="../resource/themeAcDec.html" target="_blank">长春市人大常委会任免职名单</a><span>2016-06-24</span></li>
+                                <li><a href="../resource/themeAcDec.html" target="_blank">长春市人民政府关于林巍等同志任职...</a><span>2016-06-24</span></li>
+                                <li><a href="../resource/themeAcDec.html" target="_blank">长春市第十四届人民代表大会常务委...</a><span>2016-06-24</span></li>
+                                <li><a href="../resource/themeAcDec.html" target="_blank">长春市人大常委会任免职名单</a><span>2016-06-24</span></li>
+                                <li><a href="../resource/themeAcDec.html" target="_blank">长春市人民政府关于林巍等同志任职...</a><span>2016-06-24</span></li>
+                                <li><a href="../resource/themeAcDec.html" target="_blank">长春市第十四届人民代表大会常务委...</a><span>2016-06-24</span></li>
+                                </ul>
+                            </div>
+                            <!--专题资料 start 8行,24字-->
+                            <div class="special_fr">
+                                <div class="spe_cl">
+                                    <h3>栏目名称具体文字</h3><span><a href="../resource/study_resource.html" target="_blank">更多>></a>
+                    </div>
+                    <ul class="news-list news-lly">
+                        <li><a href="../resource/themeAcDec.html" target="_blank">长春市人民政府关于林巍等同志任职巍等同志任职巍等...</a><span>2016-06-24</span></li>
+                                    <li><a href="../resource/themeAcDec.html" target="_blank">长春市第十四届人民代表大会常务委...</a><span>2016-06-24</span></li>
+                                    <li><a href="../resource/themeAcDec.html" target="_blank">长春市人大常委会任免职名单</a><span>2016-06-24</span></li>
+                                    <li><a href="../resource/themeAcDec.html" target="_blank">长春市人民政府关于林巍等同志任职...</a><span>2016-06-24</span></li>
+                                    <li><a href="../resource/themeAcDec.html" target="_blank">长春市第十四届人民代表大会常务委...</a><span>2016-06-24</span></li>
+                                    <li><a href="../resource/themeAcDec.html" target="_blank">长春市人大常委会任免职名单</a><span>2016-06-24</span></li>
+                                    <li><a href="../resource/themeAcDec.html" target="_blank">长春市人民政府关于林巍等同志任职...</a><span>2016-06-24</span></li>
+                                    <li><a href="../resource/themeAcDec.html" target="_blank">长春市第十四届人民代表大会常务委...</a><span>2016-06-24</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 底部 start-->
+                    <div id="footer" class="clearfix">
+                        <div class="footer">
+                            <div class="fl_01">
+                                <img src="../../image/common/banner.jpg" />
+                            </div>
+                            <div class="fr_01">
+                                <p>版权所有：中国共产主义青年团吉林省委员会 网站备案号：京ICP备10000000-1号 地址：长春市具体文字内容具体文字内容具体文字内容
+                                    <br>
+                                    <span>长春嘉诚信息技术股份有限公司 技术支持</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 底部 end-->
+                    <script src="../../../views/js/jquery-1.11.1.min.js"></script>
+                    <script src="../../../views/js/layer.js"></script>
+                    <!--弹窗-->
+                    <script src="../../js/lak.js"></script>
+                    <!--弹窗-->
+</body>
+
+</html>

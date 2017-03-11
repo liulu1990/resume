@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>课程超市</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="../../css/style.css">
+</head>
+<body>
+    <!--登录条 start-->
+    <div class="lo_box">
+        <div class="hd_login clearfix">
+            <div class="log_lf">
+                <a href="javascript:void(0)" class="wdz">帮助文档</a>
+                <a href="javascript:;" onclick=layeraw();>反馈意见</a>
+            </div>
+            <div class="log_rf clearfix" style="display:none;">
+                <p><input type="text" value="用户名" class="user" onfocus="if(value=='用户名') {value=''}" onblur="if (value=='') {value='用户名'}"></p>
+                <p><input type="password" value="" class="password" placeholder="请输入您的密码"></p>
+                <a href="javascript:void(0)" class="input_resg">登录</a>
+                <a href="javascript:;" onclick=layerrg(); class="input_resg">注册</a>
+                <a href="javascript:;" onclick=layerpd(); class="input_pd">忘记密码</a>
+            </div>
+            <div class="log_rf_on clearfix">
+                <a href="javascript:;" onclick=layertw();><img src="../../image/common/dltb.jpg" /></a>
+                <span class="input_com">欢迎您，</span>
+                <a href="javascript:;" onclick=layertw(); class="input_us">用户名</a>
+                <a href="javascript:;" onclick=layerpd(); class="input_pad">[修改密码]</a>
+                <p><input type="button" name="user" value="后台" class="input_text01"></p>
+                <p><input type="button" name="paddword" value="退出" class="input_text02"></p>
+            </div>
+        </div>
+    </div>
+    <!--登录条 end-->
+    <!--头部 start-->
+    <div class="head">
+        <div class="head_logo clearfix">
+            <div class="fl_column">
+                <a href="javascript:void(0)" class="logo"><img src="../../image/common/logo.jpg" /></a>
+                <a href="javascript:void(0)"><img src="../../image/common/znlg.jpg" /></a>
+            </div>
+            <div class="fr_column">
+                <div class="search">
+                    <label><a href="javascript:void(0)" class="key">关键字</a><a href="javascript:void(0)">课程</a><a href="javascript:void(0)">专题</a><a href="javascript:void(0)">资料</a></label>
+                    <p><input type="text" value="搜索课程、专题或资料" onfocus="if(value=='搜索课程、专题或资料') {value=''}" onblur="if (value=='') {value='搜索课程、专题或资料'}"/></p>
+                    <p><a href="javascript:void(0)"><button></button></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--头部 end-->
+    <!--导航 start-->
+    <div class="header-con clearfix">
+        <ul class="header-nav">
+            <li class="head-li"><a href="../../index.html"><i class="icon icon-shouye4wode1"></i>首 页</a></li>
+            <li class="head-li"><a href="../personal/index.html"><i class="icon icon-user"></i>个人中心</a></li>
+            <li class="head-li active"><a href="#"><i class="icon icon-xiaoxingchaoshi00"></i>课程超市</a></li>
+            <li class="head-li"><a href="../special/index.html"><i class="icon icon-zhuanti"></i>专题学习</a></li>
+            <li class="head-li"><a href="../resource/index.html"><i class="icon icon-ziliao"></i>学习资源</a></li>
+            <li class="head-li"><a href="../faculty/index.html"><i class="icon icon-peixun"></i>培训师资</a></li>
+            <li class="head-li"><a href="../info/index.html"><i class="icon icon-xinxi"></i>信息中心</a></li>
+            <li class="head-li last"><a href="../rank/mod_core.html"><i class="icon icon-home"></i>排行榜</a></li>
+        </ul>
+    </div>
+    <!--导航 end-->
+    <!--内容 start-->
+    <div class="content_area">
+        <div class="cource_bl">
+            <div class="cource_title">
+                <a href="javascript:void(0)" class="open" type="0">全部 (22)</a>
+                <a href="javascript:void(0)" type="1">面授课 (5)</a>
+                <a href="javascript:void(0)" type="2">公开课 (15)</a>
+                <a href="javascript:void(0)" type="3">专题课 (2)</a>
+            </div>
+            <div class="bk_line01"></div>
+            <div class="cource_main">
+                <div id="open1" class="cource_fit" style="display:none">
+                    <a href="javascript:void(0)" class="open" type="0">全部 (15)</a>
+                    <a href="javascript:void(0)" type="1">网易公开课 (10)</a>
+                    <a href="javascript:void(0)" type="2">搜狐公开课 (5)</a>
+                    <a href="javascript:void(0)" type="3">新浪公开课 (5)</a>
+                    <a href="javascript:void(0)" type="4">无分类课程 (2)</a>
+                </div>
+                <div id="open2" class="cource_fit" style="display:none">
+                    <a href="javascript:void(0)" class="open">全部 (5)</a>
+                    <a href="javascript:void(0)">基本课程 (3)</a>
+                    <a href="javascript:void(0)">科研课程 (2)</a>
+                    <a href="javascript:void(0)">团史课程 (1)</a>
+                    <a href="javascript:void(0)">无分类课程 (2)</a>
+                </div>
+            </div>
+        </div>
+        <!--内容课程切换 标题 start -->
+        <div class="tabs-box">
+            <div class="tit_text tit_kll">
+                <ul class="taj">
+                    <li class="dj"><a href="javascript:void(0)">最  新</a></li>
+                    <li><a href="javascript:void(0)">最  热</a></li>
+                </ul>
+                 <ul class="tabbs tb_fr">
+                    <li class="active">
+                        <a href="javascript:void(0)" class="list_dtb"></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="list_dlb"></a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="tabs-con on">
+                <div class="mix-list clearfix">
+                    <ul class="mix_area list_area">
+                        <li>
+                            <div class="mix-ttl">
+                                <a href="cource_detail.html" target="_blank" class="mix-img"> <img src="image/sup_01.jpg"></a>
+                                <p><a href="cource_detail.html" target="_blank">具体课程名称文字</a></p>
+                            </div>
+                            <div class="mix-txt">
+                                <div class="tit_text2 clearfix">
+                                    <div class="tit_flt">
+                                         <h3><a href="cource_detail.html" target="_blank">课程名称：<span>具体名称文字具体名称文字具体名称文字</span></a></h3>
+                                    </div>
+                                    <div class="tit_ftt">
+                                        <span><img src="../../image/rw.png"></span><span class="pel">999人</span>
+                                    </div>
+                                </div>
+                                <div class="tit_flt">
+                                    <h3><a href="javascript:void(0)">讲师：<span class="norma">具体姓名</span></a>
+                        <a href="javascript:void(0)">学时：<span class="norma">20分钟</span></a></h3>
+                                </div>
+                                <div class="tit_flt">
+                                    <h3><a href="javascript:void(0)">课程内容： <span class="norma">具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字...</span></a>
+                       </h3>
+                                </div>
+                                <div class="liulan"><a href="cource_detail.html" target="_blank">进入课程</a></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="mix_area list_area">
+                        <li>
+                            <div class="mix-ttl">
+                                <a href="cource_detail.html" target="_blank" class="mix-img"> <img src="image/sup_02.jpg"></a>
+                                <p><a href="cource_detail.html" target="_blank">具体课程名称文字</a></p>
+                            </div>
+                            <div class="mix-txt">
+                                <div class="tit_text2 clearfix">
+                                    <div class="tit_flt">
+                                        <h3><a href="cource_detail.html" target="_blank">课程名称：<span>具体名称文字具体名称文字具体名称文字</span></a></h3>
+                                    </div>
+                                    <div class="tit_ftt">
+                                       <span><img src="../../image/rw.png"></span><span class="pel">999人</span>
+                                    </div>
+                                </div>
+                                <div class="tit_flt">
+                                    <h3><a href="javascript:void(0)">讲师：<span class="norma">具体姓名</span></a>
+                       <a href="javascript:void(0)">学时：<span class="norma">20分钟</span></a></h3>
+                                </div>
+                                <div class="tit_flt">
+                                    <h3><a href="javascript:void(0)">课程内容： <span class="norma">具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字...</span></a>
+                                    </h3>
+                                </div>
+                                <div class="liulan"><a href="cource_detail.html" target="_blank">进入课程</a></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="mix_area list_area">
+                        <li>
+                            <div class="mix-ttl">
+                                <a href="cource_detail.html" target="_blank" class="mix-img"> <img src="image/sup_03.jpg"></a>
+                                <p><a href="cource_detail.html" target="_blank">具体课程名称文字</a></p>
+                            </div>
+                            <div class="mix-txt">
+                                <div class="tit_text2 clearfix">
+                                    <div class="tit_flt">
+                                        <h3><a href="cource_detail.html" target="_blank">课程名称：<span>具体名称文字具体名称文字具体名称文字</span></a></h3>
+                                    </div>
+                                    <div class="tit_ftt">
+                                        <span><img src="../../image/rw.png"></span><span class="pel">999人</span>
+                                    </div>
+                                </div>
+                                <div class="tit_flt">
+                                    <h3><a href="javascript:void(0)">讲师：<span class="norma">具体姓名</span></a>
+                        <a href="javascript:void(0)">学时：<span class="norma">20分钟</span></a></h3>
+                                </div>
+                                <div class="tit_flt">
+                                    <h3><a href="javascript:void(0)">课程内容： <span class="norma">具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字...</span></a>
+                       </h3>
+                                </div>
+                                <div class="liulan"><a href="cource_detail.html" target="_blank">进入课程</a></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="mix_area list_area">
+                        <li>
+                            <div class="mix-ttl">
+                                <a href="cource_detail.html" target="_blank" class="mix-img"> <img src="image/sup_04.jpg"></a>
+                                <p><a href="cource_detail.html" target="_blank">具体课程名称文字</a></p>
+                            </div>
+                            <div class="mix-txt">
+                                <div class="tit_text2 clearfix">
+                                    <div class="tit_flt">
+                                        <h3><a href="cource_detail.html" target="_blank">课程名称：<span>具体名称文字具体名称文字具体名称文字</span></a></h3>
+                                    </div>
+                                    <div class="tit_ftt">
+                                        <span><img src="../../image/rw.png"></span><span class="pel">999人</span>
+                                    </div>
+                                </div>
+                                <div class="tit_flt">
+                                    <h3><a href="javascript:void(0)">讲师：<span class="norma">具体姓名</span></a>
+                       <a href="javascript:void(0)">学时：<span class="norma">20分钟</span></a></h3>
+                                </div>
+                                <div class="tit_flt">
+                                    <h3><a href="javascript:void(0)">课程内容： <span class="norma">具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字具体名称文字...</span></a>
+                       </h3>
+                                </div>
+                                <div class="liulan"><a href="cource_detail.html" target="_blank">进入课程</a></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="pagenation">
+                        <ul class="page_area page_gk page_bkk clearfix">
+                            <li><a href="#">上一页</a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#" class="act">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">6</a></li>
+                            <li><a href="#">...</a></li>
+                            <li><a href="#">10</a></li>
+                            <li><a href="#">下一页</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tabs-con">
+                <div class="kc_special clearfix">
+                    <ul class="kcdb">
+                        <li>
+                            <div class="kclb_img">
+                                <a href="cource_detail.html" target="_blank"><img src="../../image/kc_01.jpg" /></a>
+                                <p><a href="cource_detail.html" target="_blank">课程具体文字介绍</a></p>
+                            </div>
+                            <div class="wb_area clearfix">
+                               <div class="wb_fl">
+                                    <p>学时：20分</p>
+                                    <p>讲师：具体姓名</p>
+                                </div>
+                                <div class="wb_fr">
+                                    <p><span class="img_cource">学分：</span><span>60分</span></p>
+                                    <p class="img_ct"><img src="../../image/rw.png" /><span>999人</span></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="kclb_img">
+                                <a href="cource_detail.html" target="_blank"><img src="../../image/kc_01.jpg" /></a>
+                                <p><a href="cource_detail.html" target="_blank">课程具体文字介绍</a></p>
+                            </div>
+                            <div class="wb_area clearfix">
+                               <div class="wb_fl">
+                                    <p>学时：20分</p>
+                                    <p>讲师：具体姓名</p>
+                                </div>
+                                <div class="wb_fr">
+                                    <p><span class="img_cource">学分：</span><span>60分</span></p>
+                                    <p class="img_ct"><img src="../../image/rw.png" /><span>999人</span></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="kclb_img">
+                                <a href="cource_detail.html" target="_blank"><img src="../../image/kc_01.jpg" /></a>
+                                <p><a href="cource_detail.html" target="_blank">课程具体文字介绍</a></p>
+                            </div>
+                            <div class="wb_area clearfix">
+                                <div class="wb_fl">
+                                    <p>学时：20分</p>
+                                    <p>讲师：具体姓名</p>
+                                </div>
+                                <div class="wb_fr">
+                                    <p><span class="img_cource">学分：</span><span>60分</span></p>
+                                    <p class="img_ct"><img src="../../image/rw.png" /><span>999人</span></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="last">
+                            <div class="kclb_img">
+                                <a href="cource_detail.html" target="_blank"><img src="../../image/kc_01.jpg" /></a>
+                                <p><a href="cource_detail.html" target="_blank">课程具体文字介绍</a></p>
+                            </div>
+                            <div class="wb_area clearfix">
+                                <div class="wb_fl">
+                                    <p>学时：20分</p>
+                                    <p>讲师：具体姓名</p>
+                                </div>
+                                <div class="wb_fr">
+                                    <p><span class="img_cource">学分：</span><span>60分</span></p>
+                                    <p class="img_ct"><img src="../../image/rw.png" /><span>999人</span></p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="sm_line"></div>
+                    <ul class="kcdb">
+                        <li>
+                            <div class="kclb_img">
+                                <a href="cource_detail.html" target="_blank"><img src="../../image/kc_01.jpg" /></a>
+                                <p><a href="cource_detail.html" target="_blank">课程具体文字介绍</a></p>
+                            </div>
+                            <div class="wb_area clearfix">
+                                <div class="wb_fl">
+                                    <p>学时：20分</p>
+                                    <p>讲师：具体姓名</p>
+                                </div>
+                                <div class="wb_fr">
+                                    <p><span class="img_cource">学分：</span><span>60分</span></p>
+                                    <p class="img_ct"><img src="../../image/rw.png" /><span>999人</span></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="kclb_img">
+                                <a href="cource_detail.html" target="_blank"><img src="../../image/kc_01.jpg" /></a>
+                                <p><a href="cource_detail.html" target="_blank">课程具体文字介绍</a></p>
+                            </div>
+                            <div class="wb_area clearfix">
+                               <div class="wb_fl">
+                                    <p>学时：20分</p>
+                                    <p>讲师：具体姓名</p>
+                                </div>
+                                <div class="wb_fr">
+                                    <p><span class="img_cource">学分：</span><span>60分</span></p>
+                                    <p class="img_ct"><img src="../../image/rw.png" /><span>999人</span></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="kclb_img">
+                                <a href="cource_detail.html" target="_blank"><img src="../../image/kc_01.jpg" /></a>
+                                <p><a href="cource_detail.html" target="_blank">课程具体文字介绍</a></p>
+                            </div>
+                            <div class="wb_area clearfix">
+                                <div class="wb_fl">
+                                    <p>学时：20分</p>
+                                    <p>讲师：具体姓名</p>
+                                </div>
+                                <div class="wb_fr">
+                                    <p><img src="../../image/xx.png" /><img src="../../image/xx.png" /><img src="../../image/xx.png" /><img src="../../image/xx.png" /><img src="../../image/xx.png" /></p>
+                                    <p class="img_ct"><img src="../../image/rw.png" /><span>999人</span></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="last">
+                            <div class="kclb_img">
+                                <a href="cource_detail.html" target="_blank"><img src="../../image/kc_01.jpg" /></a>
+                                <p><a href="cource_detail.html" target="_blank">课程具体文字介绍</a></p>
+                            </div>
+                            <div class="wb_area clearfix">
+                                <div class="wb_fl">
+                                    <p>学时：20分</p>
+                                    <p>讲师：具体姓名</p>
+                                </div>
+                                <div class="wb_fr">
+                                    <p><span class="img_cource">学分：</span><span>60分</span></p>
+                                    <p class="img_ct"><img src="../../image/rw.png" /><span>999人</span></p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="sm_line"></div>
+                    <ul class="kcdb">
+                        <li>
+                            <div class="kclb_img">
+                                <a href="cource_detail.html" target="_blank"><img src="../../image/kc_01.jpg" /></a>
+                                <p><a href="cource_detail.html" target="_blank">课程具体文字介绍</a></p>
+                            </div>
+                            <div class="wb_area clearfix">
+                                <div class="wb_fl">
+                                    <p>学时：20分</p>
+                                    <p>讲师：具体姓名</p>
+                                </div>
+                                <div class="wb_fr">
+                                    <p><span class="img_cource">学分：</span><span>60分</span></p>
+                                    <p class="img_ct"><img src="../../image/rw.png" /><span>999人</span></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="kclb_img">
+                                <a href="cource_detail.html" target="_blank"><img src="../../image/kc_01.jpg" /></a>
+                                <p><a href="cource_detail.html" target="_blank">课程具体文字介绍</a></p>
+                            </div>
+                            <div class="wb_area clearfix">
+                                <div class="wb_fl">
+                                    <p>学时：20分</p>
+                                    <p>讲师：具体姓名</p>
+                                </div>
+                                <div class="wb_fr">
+                                    <p><span class="img_cource">学分：</span><span>60分</span></p>
+                                    <p class="img_ct"><img src="../../image/rw.png" /><span>999人</span></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="kclb_img">
+                                <a href="cource_detail.html" target="_blank"><img src="../../image/kc_01.jpg" /></a>
+                                <p><a href="cource_detail.html" target="_blank">课程具体文字介绍</a></p>
+                            </div>
+                            <div class="wb_area clearfix">
+                                <div class="wb_fl">
+                                    <p>学时：20分</p>
+                                    <p>讲师：具体姓名</p>
+                                </div>
+                                <div class="wb_fr">
+                                    <p><span class="img_cource">学分：</span><span>60分</span></p>
+                                    <p class="img_ct"><img src="../../image/rw.png" /><span>999人</span></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="last">
+                            <div class="kclb_img">
+                                <a href="cource_detail.html" target="_blank"><img src="../../image/kc_01.jpg" /></a>
+                                <p><a href="cource_detail.html" target="_blank">课程具体文字介绍</a></p>
+                            </div>
+                            <div class="wb_area clearfix">
+                               <div class="wb_fl">
+                                    <p>学时：20分</p>
+                                    <p>讲师：具体姓名</p>
+                                </div>
+                                <div class="wb_fr">
+                                    <p><span class="img_cource">学分：</span><span>60分</span></p>
+                                    <p class="img_ct"><img src="../../image/rw.png" /><span>999人</span></p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="sm_line"></div>
+                    <div class="pagenation">
+                        <ul class="page_area page_gk page_bkk page_mag clearfix">
+                            <li><a href="#">上一页</a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#" class="act">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">6</a></li>
+                            <li><a href="#">...</a></li>
+                            <li><a href="#">10</a></li>
+                            <li><a href="#">下一页</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--内容课程切换 标题 end -->
+    </div>
+    <!-- 底部 start-->
+    <div id="footer">
+        <div class="footer clearfix">
+            <div class="fl_01">
+                <img src="../../image/common/banner.jpg" />
+            </div>
+            <div class="fr_01">
+                <p>版权所有：中国共产主义青年团吉林省委员会 网站备案号：京ICP备10000000-1号 地址：长春市具体文字内容具体文字内容具体文字内容
+                    <br>
+                    <span>长春嘉诚信息技术股份有限公司 技术支持</span></p>
+            </div>
+        </div>
+    </div>
+    <!-- 底部 end-->
+    <script src="../../../views/js/jquery-1.11.1.min.js"></script>
+    <script src="../../../views/js/layer.js"></script><!--弹窗-->
+    <script src="../../js/lak.js"></script><!--弹窗-->
+    <script src="../../../views/js/main.js"></script><!--tab切换 图片切换 左导航-->
+    <script>
+    $('#lulu h2').click(function(){
+        $(this).next().slideToggle();
+    })
+    $('#collect').click(function(){
+        if($(this).text()=='收藏课程'){
+            $(this).text('取消收藏');
+        }else{
+            $(this).text('收藏课程');
+        }
+    })
+    </script>
+    <script>
+        $('.cource_title a').click(function () {
+            if($(this).attr('type')==0){
+                $('#open1').hide();
+                $('#open2').hide();
+                $(this).addClass('open').siblings().removeClass('open');
+            }
+            if($(this).attr('type')==1){
+                $('#open1').show();
+                $('#open2').hide();
+                $(this).addClass('open').siblings().removeClass('open');
+            }
+        })
+        $('#open1 a').click(function () {
+            if($(this).attr('type')==0){
+                $('#open2').hide();
+                $(this).addClass('open').siblings().removeClass('open');
+            }
+            if($(this).attr('type')==1){
+                $('#open2').show();
+                $(this).addClass('open').siblings().removeClass('open');
+            }
+        })
+        $('.taj li').click(function () {
+            $(this).addClass('dj').siblings().removeClass('dj');
+        })
+    </script>
+</body>
+</html>

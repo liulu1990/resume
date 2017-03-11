@@ -1,0 +1,471 @@
+@charset "utf-8";
+@import "font";
+@import "public";
+@import "helper";
+@import "base";
+@import "lfnav";
+@import "modCommon";
+@import "modSource";
+@import "modSourcedtl";
+@import "modSourcegkk";
+@import "modSuper";
+@import "nav";
+@import "modSourcehd";
+@import "modSpecial";
+@import "modSpecialstudy";
+@import "modfaculty";
+@import "modResol";
+@import "modRegister";
+@import "modexam";
+@import "modtree";
+@import "video-js.min";
+@import "rank";
+@import "datepicker";
+
+/*头部样式 start*/
+
+.content_area {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.lo_box {
+    background: lighten($ywColor, 58%);
+    border-bottom: 1px solid $color_fff;
+    .hd_login {
+        padding: 5px 0;
+        a {
+            font-size: $global-font-size;
+            font-family: $global-hei;
+        }
+        width: 980px;
+        margin: 0 auto;
+        .log_lf {
+            @include fl();
+            .txt_wd {
+                color: lighten($main_color, 5%);
+                margin-right: 10px;
+            }
+            .txt_yj {
+                color: $ywColor;
+                padding-bottom: 10px;
+            }
+            img {
+                padding: 8px 5px 0 0;
+            }
+            a {
+                color: $ywColor;
+                display: inline-block;
+                background: url(../image/common/st.png) no-repeat 3px 10px;
+                padding-left: 20px;
+                padding-top: 10px;
+                &:hover {
+                    color: lighten($main_color, 5%);
+                }
+            }
+            a.wdz {
+                color: lighten($main_color, 5%);
+                background: url(../image/common/problem.png) no-repeat 3px 10px;
+                margin-right: 10px;
+            }
+        }
+        .log_rf {
+            @include fr();
+            p {
+                @include fl();
+                input.user,
+                input.password {
+                    @include fl();
+                    background: #fff;
+                    width: 140px;
+                    border-radius: 5px;
+                    border: #e5e5e5 1px solid;
+                    font-size: $global-font-size;
+                    font-family: $global-hei;
+                    color: lighten($ywColor, 5%);
+                    height: 30px;
+                    line-height: 30px;
+                    margin: 5px 10px 5px 0;
+                    padding-left: 10px;
+                }
+            }
+            a {
+                @include fc();
+                padding: 6px 0;
+                border-radius: 5px;
+                font-size: $global-font-size;
+                font-family: $global-hei;
+                width: 60px;
+                @include fl();
+                margin: 5px 10px 5px 0;
+            }
+            .input_resg {
+                background: $color_fff;
+                border: $main_color 1px solid;
+                color: $main_color;
+                &:hover {
+                    background: $main_color;
+                    color: $color_fff;
+                }
+            }
+            .input_pd {
+                color: lighten($main_color, 5%);
+                margin-right: 0;
+                padding-top: 8px;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+        .log_rf_on {
+            @include fr();
+            a {display: inline-block;
+            img{@include fl();
+            padding-right: 10px;
+             position: relative;
+                top:-5px;
+                }
+            }
+            input {
+                @include fl();
+                @include fc();
+                background: #fff;
+                width: 60px;
+                border-radius: 5px;
+                font-size: $global-font-size;
+                font-family: $global-hei;
+                color: lighten($ywColor, 5%);
+                margin-left: 10px;
+                height: 30px;
+                line-height: 30px;
+                margin-top: 5px;
+            }
+            p {
+                @include fl();
+                .input_text01,
+                .input_text02 {
+                    cursor: pointer;
+                    border-radius: 5px;
+                    border: $main_color 1px solid;
+                    background: $color_fff;
+                    color: lighten($main_color, 5%);
+                    height: 30px;
+                    @include fl();
+                    line-height: 30px;
+                    &:hover {
+                        background: $main_color;
+                        color: $color_fff;
+                    }
+                }
+            }
+            span {
+                @include fl();
+                font-size: $global-font-size;
+                font-family: $global-hei;
+                height: 30px;
+                line-height: 30px;
+                padding-top: 6px;
+            }
+            span.input_com {
+                color: lighten($ywColor, 5%);
+            }
+            a.input_us {
+                color: lighten($main_color, 5%);
+                padding-right: 5px;
+                display: inline-block;
+            }
+            a {
+                @include fl();
+                padding: 6px 0;
+                border-radius: 5px;
+                font-size: $global-font-size;
+                font-family: $global-hei;
+                height: 30px;
+                line-height: 30px;
+            }
+            a.input_pad {
+                color: #fc7562;
+            }
+        }
+    }
+}
+
+.head {
+    background: #fff;
+    border-bottom: #e5e5e5 1px solid;
+    .head_logo {
+        background: url(../image/common/head_logo.jpg) no-repeat left center;
+        width: 1090px;
+        height: 109px;
+        margin: 0 auto;
+        .fl_column {
+            @include fl();
+            width: 417px;
+            margin: 40px 0 30px 55px;
+            a.logo {
+                padding-right: 15px;
+                border-right: $main_color 2px solid;
+                display: inline-block;
+                margin-right: 15px;
+            }
+        }
+        .fr_column {
+            padding: 40px 54px 28px 0;
+            @include fr();
+            .search {
+                width: 300px;
+                height: 30px;
+                label {
+                    display: none;
+                    .key {
+                        color: darken($main_color, 5%);
+                    }
+                    width:170px;
+                    color: $ywColor;
+                    font-size: 12px;
+                    @include fl();
+                    a {
+                        padding-left: 10px;
+                        height: 30px;
+                        line-height: 30px;
+                    }
+                }
+                p {
+                    input {
+                        width: 232px;
+                        height: 30px;
+                        color: lighten($ywColor, 5%);
+                        padding-left: 15px;
+                        font-size: 12px;
+                        @include fl();
+                    }
+                }
+                p {
+                    a {
+                        button {
+                            width: 68px;
+                            height: 30px;
+                            background: url(../image/common/fdj.png) no-repeat;
+                            @include fr();
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*头部样式 end*/
+
+
+/*导航样式 start*/
+
+@mixin header-con($navHeight: 50px) {
+    border-top: 4px solid darken($main_color, 10%);
+    background: $main_color;
+    height: $navHeight;
+    margin-bottom: 10px;
+    ul.header-nav {
+        width: 980px;
+        margin: 0 auto;
+        //导航选中颜色
+        $headerNav-colors: #fb6b5b, #ffc333, #8ec165, #60aae9, #aece4e, #00c0ef, #f3a641, #00a65a !default;
+        @for $i from 1 through 16 {
+            $index: $i % length($headerNav-colors);
+            @if($index==0) {
+                $index: length($headerNav-colors);
+            }
+            $color: nth($headerNav-colors, $index);
+            $selector: +li;
+            $outTdIndex: $i - 1;
+            @if($outTdIndex > 0) {
+                @for $k from 1 through $outTdIndex {
+                    @if($k !=1) {
+                        $selector: $selector + (+li);
+                    }
+                }
+                > li#{$selector}.head-li.active,
+                > li#{$selector}.head-li:hover {
+                    background: $color;
+                }
+            }
+            @else {
+                > li.head-li.active,
+                > li.head-li:hover {
+                    background: #fb6b5b;
+                }
+            }
+        }
+        li {
+            width: (980px / 8);
+            height: $navHeight - 4;
+            @include fl();
+            a {
+                display: block;
+                height: $navHeight - 4;
+                line-height: $navHeight - 4;
+                font-size: $global-font-size+4;
+                font-family: $global-hei;
+                color: $color_fff;
+                padding-left: 33%;
+                position: relative;
+                i {
+                    position: absolute;
+                    left: 16%;
+                    top: ($navHeight / 2) - 9;
+                    width: 16px;
+                    height: 14px;
+                    line-height: 14px;
+                    font-size: 14px;
+                    margin-right: 20px;
+                    display: none;
+                }
+            }
+            &:first-child {
+                a {
+                    padding-left: 43%;
+                    i {
+                        left: 25%;
+                    }
+                }
+            }
+        }
+        li.last {
+            a {
+                padding-left: 40%;
+                i {
+                    left: 22%;
+                }
+            }
+        }
+        li:hover,
+        li.active {
+            height: $navHeight;
+            position: relative;
+            padding-top: 4px;
+            top: -4px;
+            z-index: 1111;
+            i {
+                display: block;
+                width: 16px;
+                height: 14px;
+                line-height: 14px;
+            }
+        }
+    }
+}
+
+.header-con {
+    @include header-con();
+}
+
+
+/*导航样式 end*/
+
+
+/*版权 start*/
+
+#footer {
+    background: $main_color;
+    .footer {
+        width: 980px;
+        margin: 0 auto;
+        .fl_01 {
+            @include fl();
+            width: 52px;
+            padding: 40px 0 35px 22px;
+            ;
+            margin-right: 35px;
+        }
+        .fr_01 {
+            @include fl();
+            width: 859px;
+            p {
+                color: $color_fff;
+                font-size: $global-font-size+2;
+                font-family: $global-hei;
+                padding-top: 48px;
+                line-height: 160%;
+                span {
+                    color: lighten($ywColor, 40%);
+                }
+            }
+        }
+    }
+}
+
+
+/*版权 end*/
+
+
+/*图片文字 strat*/
+
+.kc_area,
+.kb_color,
+.kc_special, .kc_st{
+    padding: 15px 0 22px 20px;
+    ul.kclb,
+    .kcdb {
+        li {
+            @include fl();
+            padding-right: 15px;
+            padding-bottom: 10px;
+            .wb_area {
+                p {
+                        color: #9198ab;
+                        font-family: $global-song;
+                        font-size: $global-font-size+2;
+                        height: 24px;
+                        line-height: 24px;
+                    }
+                .wb_fl {
+                    @include fl();
+                }
+                .wb_fr {
+                    @include fr();
+                    img {
+                        width: 14px;
+                        height: 14px;
+                        margin-left: 5px;
+                    }
+                    span {
+                        color: #9198ab;
+                        font-family: $global-song;
+                        font-size: $global-font-size+2;
+                        height: 24px;
+                        line-height: 24px;
+                    }
+                    .img_ct {
+                        img {
+                            margin-right: 5px;
+                        }
+                        text-align: right;
+                    }
+                }
+            }
+            padding-bottom: 20px;
+            .kclb_img {
+                position: relative;
+                p {
+                    position: absolute;
+                    top: 125px;
+                    a {
+                        color: $color_fff;
+                        font-size: $global-font-size;
+                        font-family: $global-song;
+                        padding-left: 53px;
+                    }
+                    background: #272728;
+                    opacity: 0.8;
+                    width:200px;
+                    height:25px;
+                }
+            }
+        }
+    }
+}
+.kc_st{padding:20px 0 0 20px;}
+
+/*图片文字 end*/

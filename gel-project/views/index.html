@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>智能持续学习平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="../views/css/style.css">
+</head>
+<body>
+    <!--登录条 start-->
+    <div class="lo_box">
+        <div class="hd_login clearfix">
+            <div class="log_lf">
+                <a href="javascript:void(0)" class="wdz">帮助文档</a>
+                <a href="javascript:;" onclick=layeraw();>反馈意见</a>
+            </div>
+            <div class="log_rf clearfix">
+                <p><input type="text" value="用户名" class="user" onfocus="if(value=='用户名') {value=''}" onblur="if (value=='') {value='用户名'}"></p>
+                <p><input type="password" value="" class="password" placeholder="请输入您的密码"></p>
+                <a href="javascript:void(0)" class="input_resg">登录</a>
+                <a href="javascript:;" onclick=layerrg(); class="input_resg">注册</a>
+                <a href="javascript:;" onclick=layerpd(); class="input_pd">忘记密码</a>
+            </div>
+            <div class="log_rf_on clearfix" style="display:none;">
+                <a href="javascript:;" onclick=layertw();><img src="../views/image/common/dltb.jpg" /></a>
+                <span class="input_com">欢迎您，</span>
+                <a href="javascript:;" onclick=layertw(); class="input_us">用户名</a>
+                <a href="javascript:;" onclick=layerpd(); class="input_pad">[修改密码]</a>
+                <p><input type="button" name="user" value="后台" class="input_text01"></p>
+                <p><input type="button" name="paddword" value="退出" class="input_text02"></p>
+            </div>
+        </div>
+    </div>
+    <!--登录条 end-->
+    <!--头部 start-->
+    <div class="head">
+        <div class="head_logo clearfix">
+            <div class="fl_column">
+                <a href="javascript:void(0)" class="logo"><img src="../views/image/common/logo.jpg" /></a>
+                <a href="javascript:void(0)"><img src="../views/image/common/znlg.jpg" /></a>
+            </div>
+            <div class="fr_column">
+                <div class="search">
+                    <label><a href="javascript:void(0)" class="key">关键字</a><a href="javascript:void(0)">课程</a><a href="javascript:void(0)">专题</a><a href="javascript:void(0)">资料</a></label>
+                    <p><input type="text" value="搜索课程、专题或资料" onfocus="if(value=='搜索课程、专题或资料') {value=''}" onblur="if (value=='') {value='搜索课程、专题或资料'}"/></p>
+                    <p><a href="../views/mod/rank/info_rank.html"><button></button></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--头部 end-->
+    <!--导航 start-->
+    <div class="header-con clearfix">
+       <ul class="header-nav">
+            <li class="head-li active"><a href="#"><i class="icon icon-shouye4wode1"></i>首 页</a></li>
+            <li class="head-li"><a href="mod/personal/index.html"><i class="icon icon-user"></i>个人中心</a></li>
+            <li class="head-li"><a href="mod/supermarket/index.html"><i class="icon icon-xiaoxingchaoshi00"></i>课程超市</a></li>
+            <li class="head-li"><a href="mod/special/index.html"><i class="icon icon-zhuanti"></i>专题学习</a></li>
+            <li class="head-li"><a href="mod/resource/index.html"><i class="icon icon-ziliao"></i>学习资源</a></li>
+            <li class="head-li"><a href="mod/faculty/index.html"><i class="icon icon-peixun"></i>培训师资</a></li>
+            <li class="head-li"><a href="mod/info/index.html"><i class="icon icon-xinxi"></i>信息中心</a></li>
+            <li class="head-li last"><a href="mod/rank/mod_core.html"><i class="icon icon-home"></i>排行榜</a></li>
+        </ul>
+    </div>
+    <!--导航 end-->
+    <!--内容 start-->
+    <div class="content_area">
+        <!--内容区域整体宽度 start-->
+        <div class="contain clearfix">
+            <div class="fl_column01">
+                <!--首页轮播图片 start-->
+                <div id="Projector">
+                    <div class="picplay">
+                        <div class="picbox">
+                            <div class="picplayImg">
+                                <a href="../views/mod/resource/themeAcDec.html" target="_blank"><img src="../views/image/gdt.jpg" /></a>
+                            </div>
+                            <div class="picplayBg"></div>
+                            <a href="../views/mod/resource/themeAcDec.html" target="_blank" class="picplayLink">吉林省人民政府信息办公室具体新闻内容文字...</a>
+                        </div>
+                        <div class="picbox">
+                            <div class="picplayImg">
+                                <a href="../views/mod/resource/themeAcBec.html" target="_blank"><img src="../views/image/gdt.jpg" /></a>
+                            </div>
+                            <div class="picplayBg"></div>
+                            <a href="../views/mod/resource/themeAcBec.html" target="_blank" class="picplayLink">吉林省人民政府信息办公室具体新闻内容文字...</a>
+                        </div>
+                        <div class="picbox">
+                            <div class="picplayImg">
+                                <a href="../views/mod/resource/themeAcFec.html" target="_blank"><img src="../views/image/gdt.jpg" /></a>
+                            </div>
+                            <div class="picplayBg"></div>
+                            <a href="../views/mod/resource/themeAcFec.html" target="_blank" class="picplayLink">吉林省人民政府信息办公室具体新闻内容文字...</a>
+                        </div>
+                    </div>
+                    <div class="cyclyImg_pager"></div>
+                </div>
+                <!--首页轮播图片 end-->
+            </div>
+            <div class="fr_column01">
+                <!--选项卡  start-->
+                <div class="tabs-box">
+                    <div class="tit_text">
+                        <ul class="tabs">
+                            <li class="active"><a href="javascript:void(0)">通知公告</a></li>
+                            <li><a href="javascript:void(0)">培训动态</a></li>
+                        </ul>
+                    </div>
+                    <div class="tabs-con on">
+                        <a href="../views/mod/info/study_resource.html" target="_blank" class="more">更多1</a>
+                        <!--选项卡通知公告 培训动态,9行,20字-->
+                        <ul class="news-list">
+                            <li><a href="../views/mod/resource/themeAcDec.html" target="_blank">长春市人民政府关于林巍等同志任职...</a></li>
+                            <li><a href="../views/mod/resource/themeAcDec.html" target="_blank">长春市第十四届人民代表大会常务委...</a></li>
+                            <li><a href="../views/mod/resource/themeAcDec.html" target="_blank">长春市人大常委会任免职名单</a></li>
+                            <li><a href="../views/mod/resource/themeAcDec.html" target="_blank">长春市人民政府关于林巍等同志任职...</a></li>
+                            <li><a href="../views/mod/resource/themeAcDec.html" target="_blank">长春市第十四届人民代表大会常务委...</a></li>
+                            <li><a href="../views/mod/resource/themeAcDec.html" target="_blank">长春市人大常委会任免职名单</a></li>
+                            <li><a href="../views/mod/resource/themeAcDec.html" target="_blank">长春市人民政府关于林巍等同志任职...</a></li>
+                            <li><a href="../views/mod/resource/themeAcDec.html" target="_blank">长春市第十四届人民代表大会常务委...</a></li>
+                            <li><a href="../views/mod/resource/themeAcDec.html" target="_blank">长春市人大常委会任免职名单</a></li>
+                        </ul>
+                    </div>
+                    <div class="tabs-con">
+                         <a href="../views/mod/info/study_resource.html" target="_blank" class="more">更多2</a>
+                        <ul class="news-list">
+                            <li><a href="../views/mod/resource/themeAcBec.html" target="_blank">长春市人民政府关于林巍等同志任职...</a></li>
+                            <li><a href="../views/mod/resource/themeAcBec.html" target="_blank">长春市第十四届人民代表大会常务委...</a></li>
+                            <li><a href="../views/mod/resource/themeAcBec.html" target="_blank">长春市人大常委会任免职名单</a></li>
+                            <li><a href="../views/mod/resource/themeAcBec.html" target="_blank">长春市人民政府关于林巍等同志任职...</a></li>
+                            <li><a href="../views/mod/resource/themeAcBec.html" target="_blank">长春市第十四届人民代表大会常务委...</a></li>
+                            <li><a href="../views/mod/resource/themeAcBec.html" target="_blank">长春市人大常委会任免职名单</a></li>
+                            <li><a href="../views/mod/resource/themeAcBec.html" target="_blank">长春市人民政府关于林巍等同志任职...</a></li>
+                            <li><a href="../views/mod/resource/themeAcBec.html" target="_blank">长春市第十四届人民代表大会常务委...</a></li>
+                            <li><a href="../views/mod/resource/themeAcBec.html" target="_blank">长春市人大常委会任免职名单</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--选项卡  end-->
+            </div>
+        </div>
+        <!--内容 end-->
+        <!--图片滚动 start-->
+        <div class="main_imglist">
+            <!--首页轮播图片 start-->
+            <!--轮播图片-->
+            <div id="Projector_01">
+                <div class="picplay_01">
+                    <div class="picbox">
+                        <div class="picplayImg">
+                            <a href="../views/mod/special/special_tit.html" target="_blank"><img src="../views/image/gdtp.jpg" /></a>
+                        </div>
+                    </div>
+                    <div class="picbox">
+                        <div class="picplayImg">
+                            <a href="../views/mod/special/special_tit.html" target="_blank"><img src="../views/image/gdtp_01.jpg" /></a>
+                        </div>
+                    </div>
+                    <div class="picbox">
+                        <div class="picplayImg">
+                            <a href="../views/mod/special/special_tit.html" target="_blank"><img src="../views/image/gdtp.jpg" /></a>
+                        </div>
+                    </div>
+                    <div class="picbox">
+                        <div class="picplayImg">
+                            <a href="../views/mod/special/special_tit.html" target="_blank"><img src="../views/image/gdtp_01.jpg" /></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cyclyImg_pager_01"></div>
+            </div>
+            <!--首页轮播图片 end-->
+        </div>
+        <!--图片滚动 end-->
+        <div class="contain clearfix">
+            <!--最新课程 start-->
+            <div class="fl_column02">
+                <div class="tit_text01">
+                    <h3>最新课程</h3>
+                    <a href="../views/mod/supermarket/index.html" target="_blank" class="more">更多</a>
+                </div>
+                <div class="kc_area clearfix">
+                    <ul class="kclb clearfix">
+                        <li>
+                            <div class="kclb_img">
+                                <a href="../views/mod/supermarket/cource_detail.html" target="_blank"><img src="image/kc_01.jpg" /></a>
+                                <p><a href="../views/mod/supermarket/cource_detail.html" target="_blank">课程具体文字介绍</a></p>
+                            </div>
+                            <div class="wb_area clearfix">
+                                <div class="wb_fl">
+                                    <p>学时：20分</p>
+                                    <p>讲师：具体姓名</p>
+                                </div>
+                                <div class="wb_fr">
+                                    <p>学分：60分</p>
+                                    <p class="img_ct"><img src="image/rw.png" /><span>999人</span></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="kclb_img">
+                                <a href="../views/mod/supermarket/cource_detail.html" target="_blank"><img src="image/kc_02.jpg" /></a>
+                                <p><a href="../views/mod/supermarket/cource_detail.html" target="_blank">课程具体文字介绍</a></p>
+                            </div>
+                            <div class="wb_area clearfix">
+                                <div class="wb_fl">
+                                    <p>学时：20分</p>
+                                    <p>讲师：具体姓名</p>
+                                </div>
+                                <div class="wb_fr">
+                                    <p>学分：60分</p>
+                                    <p class="img_ct"><img src="image/rw.png" /><span>999人</span></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="kclb_img">
+                                <a href="../views/mod/supermarket/cource_detail.html" target="_blank"><img src="image/kc_03.jpg" /></a>
+                                <p><a href="../views/mod/supermarket/cource_detail.html" target="_blank">课程具体文字介绍</a></p>
+                            </div>
+                            <div class="wb_area clearfix">
+                                <div class="wb_fl">
+                                    <p>学时：20分</p>
+                                    <p>讲师：具体姓名</p>
+                                </div>
+                                <div class="wb_fr">
+                                    <p>学分：60分</p>
+                                    <p class="img_ct"><img src="image/rw.png" /><span>999人</span></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="kclb_img">
+                                <a href="../views/mod/supermarket/cource_detail.html" target="_blank"><img src="image/kc_04.jpg" /></a>
+                                <p><a href="../views/mod/supermarket/cource_detail.html" target="_blank">课程具体文字介绍</a></p>
+                            </div>
+                            <div class="wb_area clearfix">
+                                <div class="wb_fl">
+                                    <p>学时：20分</p>
+                                    <p>讲师：具体姓名</p>
+                                </div>
+                                <div class="wb_fr">
+                                    <p>学分：60分</p>
+                                    <p class="img_ct"><img src="image/rw.png" /><span>999人</span></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="kclb_img">
+                                <a href="../views/mod/supermarket/cource_detail.html" target="_blank"><img src="image/kc_05.jpg" /></a>
+                                <p><a href="../views/mod/supermarket/cource_detail.html" target="_blank">课程具体文字介绍</a></p>
+                            </div>
+                            <div class="wb_area clearfix">
+                                <div class="wb_fl">
+                                    <p>学时：20分</p>
+                                    <p>讲师：具体姓名</p>
+                                </div>
+                                <div class="wb_fr">
+                                    <p>学分：60分</p>
+                                    <p class="img_ct"><img src="image/rw.png" /><span>999人</span></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="kclb_img">
+                                <a href="../views/mod/supermarket/cource_detail.html" target="_blank"><img src="image/kc_06.jpg" /></a>
+                                <p><a href="../views/mod/supermarket/cource_detail.html" target="_blank">课程具体文字介绍</a></p>
+                            </div>
+                            <div class="wb_area clearfix">
+                                <div class="wb_fl">
+                                    <p>学时：20分</p>
+                                    <p>讲师：具体姓名</p>
+                                </div>
+                                <div class="wb_fr">
+                                    <p>学分：60分</p>
+                                    <p class="img_ct"><img src="image/rw.png" /><span>999人</span></p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--最新课程 end-->
+            <!--学习专题 start 6行,20字-->
+            <div class="fr_column02">
+                <div class="tit_text01">
+                    <h3>专题学习</h3>
+                    <a href="../views/mod/special/index.html" target="_blank" class="more">更多</a>
+                </div>
+                <ul class="news-list">
+                    <li><a href="../views/mod/special/special_tit.html" target="_blank">长春市人民政府关于林巍等同志任职...</a></li>
+                    <li><a href="../views/mod/special/special_tit.html" target="_blank">长春市第十四届人民代表大会常务委...</a></li>
+                    <li><a href="../views/mod/special/special_tit.html" target="_blank">长春市人大常委会任免职名单</a></li>
+                    <li><a href="../views/mod/special/special_tit.html" target="_blank">长春市人民政府关于林巍等同志任职...</a></li>
+                    <li><a href="../views/mod/special/special_tit.html" target="_blank">长春市第十四届人民代表大会常务委...</a></li>
+                    <li><a href="../views/mod/special/special_tit.html" target="_blank">长春市人大常委会任免职名单</a></li>
+                </ul>
+            </div>
+            <!--学习专题 end-->
+            <!--学员讨论 start-->
+            <div class="fr_column02" style="display:none;">
+                <div class="tit_text01">
+                    <h3>学员讨论</h3>
+                    <a href="javascript:void(0)" class="more">更多</a>
+                </div>
+                <div class="news-list01 clearfix">
+                    <div class="fl">
+                        <a href="javascript:void(0)"><img src="image/xytl_01.jpg" /></a>
+                    </div>
+                    <div class="fr">
+                        <p><a href="javascript:void(0)"><span>用户名</span></a>针对于事物进行主观或客观的自我印象阐述。<a href="javascript:void(0)" class="comit">评论</a></p>
+                    </div>
+                </div>
+                <div class="news-list01 clearfix">
+                    <div class="fl">
+                        <a href="javascript:void(0)"><img src="image/xytl_02.jpg" /></a>
+                    </div>
+                    <div class="fr">
+                        <p><a href="javascript:void(0)"><span>用户名</span></a>针对于事物进行主观或客观的自我印象阐述。<a href="javascript:void(0)" class="comit">评论</a></p>
+                    </div>
+                </div>
+            </div>
+            <!--学员讨论 end-->
+            <!--单位学习排行 start-->
+            <div class="fr_column02">
+                <div class="tit_text01">
+                    <h3>单位学习排行</h3>
+                    <a href="javascript:void(0)" class="more">更多</a>
+                </div>
+                <div class="TopGroupArgCredit1">
+                    <div class="TopGroup_line">
+                         <ul class="news-list view_list">
+                         <li><span class="fi_lt">排名</span><span class="fom_tit">单位名称</span><span>平均学时</span></li>
+                         </ul>
+                    </div>
+                    <div id="scroll1" class="TopGroup">
+                        <div class="TopGroup_kline" id="scroll_1">
+                            <ul class="news-list vak_list">
+                                <li><span class="Top_add">1</span><span class="Top_adt"><a href="../views/mod/rank/per_xs.html" target="_blank">省安全生产监督...</a></span><span class="Top_adm">59.31</span></li>
+                                <li><span class="Top_add">2</span><span class="Top_adt"><a href="../views/mod/rank/per_xs.html" target="_blank">省委政法委</a></span><span class="Top_adm">58.25</span></li>
+                                <li><span class="Top_add">3</span><span class="Top_adt"><a href="../views/mod/rank/per_xs.html" target="_blank">省委奋斗杂志社</a></span><span class="Top_adm">57.92</span></li>
+                                <li><span class="Top_add">4</span><span class="Top_adt"><a href="../views/mod/rank/per_xs.html" target="_blank">省政府参事室</a></span><span class="Top_adm">56.60</span></li>
+                                <li><span class="Top_add">5</span><span class="Top_adt"><a href="../views/mod/rank/per_xs.html" target="_blank">省物价监督管理局</a></span><span class="Top_adm">54.35</span></li>
+                            </ul>
+                        </div>
+                        <div class="TopGroup_kline" id="scroll_2">
+                            <ul class="news-list vak_list">
+                                <li><span class="Top_add">1</span><span class="Top_adt"><a href="../views/mod/rank/per_xs.html" target="_blank">省安全生产监督...</a></span><span class="Top_adm">59.31</span></li>
+                                <li><span class="Top_add">2</span><span class="Top_adt"><a href="../views/mod/rank/per_xs.html" target="_blank">省委政法委</a></span><span class="Top_adm">58.25</span></li>
+                                <li><span class="Top_add">3</span><span class="Top_adt"><a href="../views/mod/rank/per_xs.html" target="_blank">省委奋斗杂志社</a></span><span class="Top_adm">57.92</span></li>
+                                <li><span class="Top_add">4</span><span class="Top_adt"><a href="../views/mod/rank/per_xs.html" target="_blank">省政府参事室</a></span><span class="Top_adm">56.60</span></li>
+                                <li><span class="Top_add">5</span><span class="Top_adt"><a href="../views/mod/rank/per_xs.html" target="_blank">省物价监督管理局</a></span><span class="Top_adm">54.35</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--单位学习排行 end-->
+        </div>
+        <!--友情链接 start-->
+        <div class="yqlj clearfix">
+            <div class="tit_text01">
+                <h3>友情链接</h3>
+            </div>
+            <ul class="friend_list">
+                <li><a href="http://www.ccln.gov.cn/" target="_blank">中国干部学习网</a></li>
+                <li><a href="http://www.ccln.gov.cn/" target="_blank">中国干部学习网</a></li>
+                <li><a href="http://www.ccln.gov.cn/" target="_blank">中国干部学习网</a></li>
+                <li><a href="http://www.ccln.gov.cn/" target="_blank">中国干部学习网</a></li>
+                <li><a href="http://www.ccln.gov.cn/" target="_blank">中国干部学习网</a></li>
+                <li><a href="http://www.ccln.gov.cn/" target="_blank">中国干部学习网</a></li>
+                <li><a href="http://www.ccln.gov.cn/" target="_blank">中国干部学习网</a></li>
+                <li><a href="http://www.ccln.gov.cn/" target="_blank">中国干部学习网</a></li>
+                <li><a href="http://www.ccln.gov.cn/" target="_blank">中国干部学习网</a></li>
+                <li><a href="http://www.ccln.gov.cn/" target="_blank">中国干部学习网</a></li>
+                <li><a href="http://www.ccln.gov.cn/" target="_blank">中国干部学习网</a></li>
+                <li><a href="http://www.ccln.gov.cn/" target="_blank">中国干部学习网</a></li>
+                <li><a href="http://www.ccln.gov.cn/" target="_blank">中国干部学习网</a></li>
+                <li><a href="http://www.ccln.gov.cn/" target="_blank">中国干部学习网</a></li>
+                <li><a href="http://www.ccln.gov.cn/" target="_blank">中国干部学习网</a></li>
+                <li><a href="http://www.ccln.gov.cn/" target="_blank">中国干部学习网</a></li>
+                <li><a href="http://www.ccln.gov.cn/" target="_blank">中国干部学习网</a></li>
+                <li><a href="http://www.ccln.gov.cn/" target="_blank">中国干部学习网</a></li>
+                <li><a href="http://www.ccln.gov.cn/" target="_blank">中国干部学习网</a></li>
+                <li><a href="http://www.ccln.gov.cn/" target="_blank">中国干部学习网</a></li>
+                <li><a href="http://www.ccln.gov.cn/" target="_blank">中国干部学习网</a></li>
+                <li><a href="http://www.ccln.gov.cn/" target="_blank">中国干部学习网</a></li>
+                <li><a href="http://www.ccln.gov.cn/" target="_blank">中国干部学习网</a></li>
+                <li><a href="http://www.ccln.gov.cn/" target="_blank">中国干部学习网</a></li>
+                <li><a href="http://www.ccln.gov.cn/" target="_blank">中国干部学习网</a></li>
+                <li><a href="http://www.ccln.gov.cn/" target="_blank">中国干部学习网</a></li>
+                <li><a href="http://www.ccln.gov.cn/" target="_blank">中国干部学习网</a></li>
+                <li><a href="http://www.ccln.gov.cn/" target="_blank" class="last">中国干部学习网</a></li>
+            </ul>
+        </div>
+        <!--友情链接 end-->
+    </div>
+    <!--内容区域整体宽度 end-->
+    <!-- 底部 start-->
+    <div id="footer">
+        <div class="footer clearfix">
+            <div class="fl_01">
+                <img src="../views/image/common/banner.jpg" />
+            </div>
+            <div class="fr_01">
+                <p>版权所有：中国共产主义青年团吉林省委员会 网站备案号：京ICP备10000000-1号 地址：长春市具体文字内容具体文字内容具体文字内容
+                    <br>
+                    <span>长春嘉诚信息技术股份有限公司 技术支持</span></p>
+            </div>
+        </div>
+    </div>
+    <!-- 底部 end-->
+    <script src="js/jquery-1.11.1.min.js"></script><!--图片滚动 特效-->
+    <script src="js/jquery.cycle2.min.js"></script><!--图片滚动 特效-->
+    <script src="js/roll.js"></script><!--单位学习排行榜 特效-->
+    <script src="js/lak.js"></script><!--弹窗-->
+    <script src="js/layer.js"></script><!--弹窗-->
+    <script src="js/main.js"></script><!--tab切换 图片切换 左导航-->
+    <script>
+     $(function () {
+            $('.picplay').cycle({
+                speed: 500
+                , slides: "> div"
+                , pager: ".cyclyImg_pager"
+                , pauseOnHover: true
+            });
+            $('.picplay_01').cycle({
+                speed: 500
+                , slides: "> div"
+                , pager: ".cyclyImg_pager_01"
+                , pauseOnHover: true
+                , pagerTemplate: '<span></span>'
+            });
+        });
+    </script>
+</body>
+</html>

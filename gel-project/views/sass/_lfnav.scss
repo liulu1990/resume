@@ -1,0 +1,251 @@
+@charset "utf-8";
+@import "font";
+@import "public";
+@import "helper";
+
+/*左侧导航公共样式 strat*/
+
+@mixin fm_lf($navleftWidth:200px, $leftFlt:left) {
+    width: 200px;
+    float: left;
+}
+
+@mixin fm_rf($navrightWidth:770px, $rightRlt:right) {
+    width: 770px;
+    float: right;
+}
+
+
+/*左侧导航公共样式 end*/
+
+@mixin wh($modelWidth:370px, $modelHeight:240px) {
+    width: 370px;
+    height: 240px;
+}
+
+
+/*右侧导航公共样式 strat*/
+
+@mixin bkColorline($bkWidh, $bkLine, $bkColor) {
+    border: $bkWidh $bkLine $bkColor;
+}
+
+
+/*右侧导航公共样式 end*/
+
+
+/*左侧导航样式 start*/
+
+.box_lf {
+    @include fm_lf();
+    @include br();
+    p {
+        color: $ywColor;
+        font-family: $global-hei;
+        font-size: $global-font-size+2;
+        span {
+            a {
+                color: $nyColor;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+        padding-left:5px;
+    }
+    .bk_line {
+        border-bottom: $main_color 2px solid;
+        margin-top: -1px;
+        margin-left: -1px;
+        width: 200px;
+        height: 2px;
+    }
+    .grzx_bx {
+        padding: 22px 29px 20px 29px;
+        background: $color_fff;
+        .grzx_img {
+            img {
+                width: 140px;
+                height: 140px;
+            }
+            position: relative;
+            p {
+                position: absolute;
+                top: 111px;
+                left: 1px;
+                background: #323c3e;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+                width: 138px;
+                height: 28px;
+                opacity: 0.6;
+                a {
+                    display: inline-block;
+                    padding: 5px 0 0 45px;
+                    color: $color_fff;
+                }
+            }
+        }
+    }
+    ul.left-nav {
+        //左侧导航选中颜色
+        $headerNav-colors: #fb6b5b, #ffc333, #8ec165, #60aae9, #aece4e, #00c0ef, #f3a641, #00a65a !default;
+        @for $i from 1 through 16 {
+            $index: $i % length($headerNav-colors);
+            @if($index==0) {
+                $index: length($headerNav-colors);
+            }
+            $color: nth($headerNav-colors, $index);
+            $selector: +li;
+            $outTdIndex: $i - 1;
+            @if($outTdIndex > 0) {
+                @for $k from 1 through $outTdIndex {
+                    @if($k !=1) {
+                        $selector: $selector + (+li);
+                    }
+                }
+                > li#{$selector}.head-li.active,
+                > li#{$selector}.head-li:hover {
+                    > a {
+                        background: #ececec;
+                        color: #333;
+                        i {
+                            color: #fff;
+                            b {
+                                left: 0;
+                                background: $color;
+                            }
+                        }
+                        i.left-nav {
+                            background: #eee;
+                            &:hover {
+                                background: #ececec;
+                            }
+                        }
+                    }
+                }
+            }
+            @else {
+                > li.head-li.active,
+                > li.head-li:hover {
+                    > a {
+                        background: #ececec;
+                        color: #333;
+                        > i {
+                            color: #fff;
+                            > b {
+                                left: 0;
+                                background: $color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        background: $color_fff;
+        li {
+            a {
+                padding: 0 15px;
+                height: 40px;
+                line-height: 40px;
+                border-top: 1px solid transparent;
+                transition: color .3s ease-in-out 0s;
+                border-color: #dcdcdc;
+                color: $ywColor;
+                display: block;
+                font-weight: bold;
+                i:before {
+                    z-index: 5;
+                    position: relative;
+                }
+                i {
+                    margin: 0 -15px;
+                    line-height: 39px;
+                    width: 39px;
+                    float: left;
+                    margin-right: 10px;
+                    font-size: 20px;
+                    border-right: 1px solid #dcdcdc;
+                    text-align: center;
+                    position: relative;
+                    overflow: hidden;
+                    color: #999;
+                    z-index: 3;
+                    b {
+                        position: absolute;
+                        left: -38px;
+                        width: 100%;
+                        height: 40px;
+                        top: 0;
+                        bottom: 0;
+                        z-index: 0;
+                        -webkit-transition: left .25s;
+                        transition: left .25s;
+                        z-index: 1;
+                    }
+                }
+            }
+        }
+        > li > ul.model_lm {
+            display: none;
+            li {
+                position: relative;
+                display: block;
+            }
+            a {
+                padding: 0 15px;
+                height: 40px;
+                line-height: 40px;
+                border-top: 1px solid transparent;
+                transition: color .3s ease-in-out 0s;
+                border-color: #dcdcdc;
+                color: $ywColor;
+                display: block;
+                font-weight: bold;
+                background: #f7f7f7;
+            }
+            a.active {
+                color: $ywColor;
+                background: $l_sgray;
+            }
+        }
+        > li.active {
+            >ul.model_lm {
+                display: block;
+            }
+        }
+    }
+    ul.header-ltk {
+        li {
+            a {
+                width:198px;
+                padding:0 55px;
+                display: inline-block;
+                height: 40px;
+                line-height: 40px;
+                color:#333;
+                border-top:#ccc 1px solid;
+                &:hover{color:$LineThird;background: #ececec;}
+            }
+            
+        }
+        li.active {
+            background: $LineThird;
+      }
+        li.active a{color:#fff;&:hover{background: none;}}
+    }
+    margin-bottom: 10px;
+}
+
+
+/*左侧导航样式 end*/
+
+
+/*右侧导航样式 start*/
+
+.box_rf {
+    @include fm_rf();
+}
+
+
+/*右侧导航样式 end*/
