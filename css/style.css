@@ -55,36 +55,6 @@ img {
 .carousel ul li {
     float: left;
 }
-
-/*.btn {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    text-decoration: none;
-    color: #fff;
-    background-color: #333;
-    opacity: 0.6;
-    display: block;
-    text-align: center;
-    line-height: 50px;
-    font-size: 24px;
-    position: absolute;
-    top: 50%;
-    margin-top: -15px;
-}
-
-.btn-l {
-    position: absolute;
-    top: 50%;
-    left: 5px;
-}
-
-.btn-r {
-    position: absolute;
-    top: 50%;
-    right: 5px;
-}*/
-
 .choose {
     position: absolute;
     bottom: 30px;
@@ -123,7 +93,8 @@ img {
 
 .bannerText h1 {
     font-size: 65px;
-    color: #27ae60;
+    color: #fff;
+    font-weight: bold;
     padding-bottom: 20px;
 }
 
@@ -202,7 +173,9 @@ img {
     width: 100%;
     height: 100%;
 }
-
+.nav .nav-list li a:hover{
+    color:red;
+}
 /*导航 end*/
 /*公共 start*/
 .left {

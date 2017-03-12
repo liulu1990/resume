@@ -1,7 +1,516 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32551cac-d769-4e97-902f-4d9bbd38ad16" name="默认的" comment="" />
+    <list default="true" id="32551cac-d769-4e97-902f-4d9bbd38ad16" name="默认的" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/13b0abe79b31d79cd7f221eb948bef906fdcf74d/_utilities.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/37d4145671d6b9845e28a0bf9efe69af6e9f10a8/_ellipsis.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/40cd5124e4085a1b3eec47c3eb49cf1a5d740c72/_support.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/47b4eac418b15283b6dd0f18f88f223bed635cba/_ellipsis.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/52a9cf98df277173f27889c1309d40c143378ed4/_public.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/555bc030b7d8f8265d25cfeeb108e2f219bf3755/_lists.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/5dd36bef574dccdaac7093df82caff7900ef10bf/_font.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/66feb9c5f8c9361ac552c5391845be4fda6a320d/_clearfix.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/66feb9c5f8c9361ac552c5391845be4fda6a320d/_float.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/66feb9c5f8c9361ac552c5391845be4fda6a320d/_hacks.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/66feb9c5f8c9361ac552c5391845be4fda6a320d/_reset.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/D%058/Program Files/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/_support.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/D%058/Program Files/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_bullets.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/D%058/Program Files/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/D%058/Program Files/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/D%058/Program Files/Koala/rubygems/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_float.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/D%058/ruby/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/_support.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/D%058/ruby/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_bullets.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/D%058/ruby/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/D%058/ruby/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/D%058/ruby/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_float.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/7c97075b7b9bd631f70b598898959e31d46ad82b/_bullets.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/7c97075b7b9bd631f70b598898959e31d46ad82b/_horizontal-list.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/7c97075b7b9bd631f70b598898959e31d46ad82b/_inline-block-list.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/7c97075b7b9bd631f70b598898959e31d46ad82b/_inline-list.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/85bcdb3519a4e4d8301864453cb485440402d720/_deprecated-support.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/85bcdb3519a4e4d8301864453cb485440402d720/_inline-block.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/9879a28db7b571b6dddffd258f16fa173f6eb19a/_color.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/9879a28db7b571b6dddffd258f16fa173f6eb19a/_common.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/9879a28db7b571b6dddffd258f16fa173f6eb19a/_font.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/9879a28db7b571b6dddffd258f16fa173f6eb19a/_helper.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/9879a28db7b571b6dddffd258f16fa173f6eb19a/_nav.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/9879a28db7b571b6dddffd258f16fa173f6eb19a/_page.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/9879a28db7b571b6dddffd258f16fa173f6eb19a/_table.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/9879a28db7b571b6dddffd258f16fa173f6eb19a/base.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/9879a28db7b571b6dddffd258f16fa173f6eb19a/nav.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/98c8dcc0802f45154f1cb06cb14fb1ccefe37a5e/_deprecated-support.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/98c8dcc0802f45154f1cb06cb14fb1ccefe37a5e/_inline-block.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/c63f960b1e1ab73a823b9cc5e07664a0af41ef21/_helper.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/c63f960b1e1ab73a823b9cc5e07664a0af41ef21/base.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/c7520d2660dddc141c62cc6d267d0c8f1a1bed58/_bullets.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/c7520d2660dddc141c62cc6d267d0c8f1a1bed58/_horizontal-list.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/c7520d2660dddc141c62cc6d267d0c8f1a1bed58/_inline-block-list.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/c7520d2660dddc141c62cc6d267d0c8f1a1bed58/_inline-list.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/d0335b62821af25ea29fc7867ffe43a8416473d1/_clearfix.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/d0335b62821af25ea29fc7867ffe43a8416473d1/_float.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/d0335b62821af25ea29fc7867ffe43a8416473d1/_hacks.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/d0335b62821af25ea29fc7867ffe43a8416473d1/_reset.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/da00286b2b3ee124cdfc39d502579b3e3e2dbdcc/_link-colors.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/e1016e026944cda662968d1a50f79ce788befa84/_support.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/e54442ce338e2597dba5d447a9a576bc4088ec7a/_lists.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/ea2a29d4f546177677be03ff334236e693992c4e/_helper.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/ea2a29d4f546177677be03ff334236e693992c4e/base.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/f2977c72d87383e78243ab69035673d260ae5c2a/_link-colors.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/.sass-cache/f5ebd3a2117874678a357a3c98d7c0c1892a9682/_utilities.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/config.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/font/iconfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/font/iconfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/font/iconfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/font/iconfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/common/banner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/common/dltb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/common/fdj.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/common/head_logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/common/ipt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/common/logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/common/problem.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/common/qp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/common/st.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/common/sx.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/common/znlg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/gdt.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/gdtp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/gdtp_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/hd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/hq.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/kc_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/kc_02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/kc_03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/kc_04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/kc_05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/kc_06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/ld.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/plus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/qp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/ranking-hot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/ranking.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/rw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/sq.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/sxx.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/wxzt.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/xx.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/xytl_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/xytl_02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/image/xzt.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/js/beginLearning.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/js/jquery-1.11.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/js/jquery.SuperSlide.2.1.1.source.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/js/jquery.cycle2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/js/jquery.datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/js/lak.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/js/layer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/js/laypage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/js/roll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/js/skin/default/icon-ext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/js/skin/default/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/js/skin/default/loading-0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/js/skin/default/loading-1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/js/skin/default/loading-2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/js/skin/layer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/js/skin/laypage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/js/supermarket/supmk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/js/typeInfo/beginLearning.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/js/video.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/faculty/image/left_nav.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/faculty/image/left_nav_on.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/faculty/image/pxsz.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/faculty/image/right_nav.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/faculty/image/right_nav_on.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/faculty/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/faculty/pop.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/info/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/info/info_rece.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/info/info_resour.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/info/info_resource.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/info/study_resource.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/info/themeAcBec.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/info/themeAcDec.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/info/themeAcFec.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/answer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/correct_pasd.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/cource_detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/hidden.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/image/grzx_bjqk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/image/grzx_bs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/image/grzx_hs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/image/grzx_kctgl.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/image/grzx_kscyl.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/image/grzx_kstgl.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/image/grzx_tb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/image/grzx_tbxz.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/image/grzx_tkqk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/image/grzx_tplb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/image/grzx_xxwcl.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/image/grzx_yhm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/image/mod_cource/hsy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/image/mod_cource/hy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/image/mod_cource/jd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/image/mod_cource/jdt.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/image/mod_cource/kc_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/image/mod_cource/ly.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/image/mod_cource/rw.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/image/mod_cource/xx.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/image/mod_cource/xx_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/image/mod_cource/xx_02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/image/mod_cource/yellow.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/infor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/mod_cksj.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/mod_class.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/mod_classend.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/mod_core.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/mod_cource.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/mod_courcecx.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/mod_courcegkk.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/mod_direc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/mod_exam.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/mod_exit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/mod_hid.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/mod_studyll.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/mod_userexam.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/passwd.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/personal/register.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/rank/cource_evaluate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/rank/cource_hot.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/rank/info_rank.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/rank/mod_core.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/rank/per_xs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/rank/study_core.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/rank/time_sct.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/rank/time_study.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/register/answer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/register/correct_pasd.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/register/image/person.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/register/image/star.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/register/infor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/register/passwd.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/register/register.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/resource/image/dt.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/resource/image/treeline.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/resource/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/resource/study_resour.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/resource/study_resource.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/resource/themeAcBec.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/resource/themeAcDec.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/resource/themeAcFec.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/special/image/special_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/special/image/special_tit.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/special/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/special/special_tit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/cource_detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/cource_reader.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/hidden.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/fk.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/hot.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/hot_on.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/kcxq/clock.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/kcxq/course.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/kcxq/curs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/kcxq/icoLeft.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/kcxq/icoRight.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/kcxq/icoRight_on.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/kcxq/naav.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/kcxq/note.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/kcxq/onload.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/kcxq/play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/kcxq/plus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/kcxq/ren.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/kcxq/sub.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/kcxq/time.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/kcxq/video.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/kcxq/video_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/new.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/new_on.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/nz.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/recouse_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/recouse_02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/recouse_03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/rw.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/sn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/sup_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/sup_02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/sup_03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/sup_04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/xr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/image/zan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/mod/supermarket/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/sass/_base.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/sass/_datepicker.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/sass/_font.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/sass/_helper.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/sass/_lfnav.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/sass/_modCommon.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/sass/_modRegister.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/sass/_modResol.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/sass/_modSource.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/sass/_modSourcedtl.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/sass/_modSourcegkk.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/sass/_modSourcehd.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/sass/_modSpecial.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/sass/_modSpecialstudy.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/sass/_modSuper.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/sass/_modexam.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/sass/_modfaculty.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/sass/_modtree.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/sass/_nav.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/sass/_public.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/sass/_rank.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/sass/_video-js.min.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/sass/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/views/sass/style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gel-project/学习平台文件路径.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.easing.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/stickUp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/company.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/css/PC.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/css/SP.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/faq.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/guide.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/bg_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/btn1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/btn1_sp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/btn2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/btn2_sp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/btn3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/btn3_sp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/btn4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/btn4_sp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/btn_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/btn_01_sp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/btn_02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/btn_02_sp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_01_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_01_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_01_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_01_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_01_sp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_01_sp_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_01_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_01_sp_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_01_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_02_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_02_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_02_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_02_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_02_sp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_02_sp_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_02_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_02_sp_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_02_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_03_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_03_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_03_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_03_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_03_sp_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_03_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_03_sp_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_03_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_04_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_04_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_04_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_04_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_04_sp_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_04_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_04_sp_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_04_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_05_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_05_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_05_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_05_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_05_sp_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_05_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_05_sp_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_05_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_06_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_06_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_06_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_06_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_06_sp_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_06_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_06_sp_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_06_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_07_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_07_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_07_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_07_sp_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_07_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_07_sp_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_07_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_08_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_08_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_08_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_08_sp_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_08_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_08_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_09_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_09_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_09_sp_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_09_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_09_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_10_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_10_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_10_sp_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_10_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_10_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_11_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_11_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_11_sp_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_11_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_11_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_12_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_12_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_12_sp_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_12_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_12_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_13_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_13_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_13_b_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_13_c_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_13_sp_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_13_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_13_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_14_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_14_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_14_sp_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_14_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_14_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_15_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_15_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_15_sp_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_15_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_15_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_16_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_16_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_16_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_16_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_17_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_17_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_17_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_17_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_18_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_18_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_18_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_19_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_19_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_19_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_20_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_20_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_20_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_21_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_21_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_21_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_22_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_22_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_22_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_23_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_23_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_23_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_24_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_24_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_24_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_25_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_25_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_25_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_26_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_26_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_26_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_27_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_27_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_27_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_28_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_28_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_28_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_29_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_29_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_29_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_30_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_30_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_30_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_31_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_31_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_31_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_32_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_32_sp_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_32_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_33_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_34_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_35_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_36_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_37_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_38_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_39_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_40_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_41_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_42_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_43_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_44_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_45_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_46_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_47_b_sp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_47_b_sp_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_47_b_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_47_c_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_47_sp_.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_47_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_48_b_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_48_c_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_48_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_49_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/img_50_sp_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/main_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/main_01_b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/main_01_b_sp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/main_01_c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/main_01_c_sp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/main_01_sp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/main_02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/main_02_b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/main_02_b_sp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/main_02_c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/main_02_c_sp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/main_02_sp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/main_03_b_sp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/main_03_c_sp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/main_03_sp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/main_04_b_sp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/main_04_c_sp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/main_04_sp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/main_05_b_sp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/main_05_c_sp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/main_05_sp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/npab_468x64_pc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/npab_468x64_sp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/pagetop_pc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/top.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/topbtn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/topbtn_sp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/topimg01.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/img/topimg01_sp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/index_b.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/index_c.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/js/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/js/jquery-1.10.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/qz/msgaojiru/privacyl.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.superslides.js" afterPath="$PROJECT_DIR$/js/jquery.superslides.js" />
+    </list>
     <ignored path="liulu.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,9 +529,19 @@
     <favorites_list name="liulu" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="319" column="97" selection-start-line="319" selection-start-column="97" selection-end-line="319" selection-end-column="97" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -31,7 +550,54 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.superslides.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/jquery.superslides.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9387">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.waterfall.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/jquery.waterfall.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-6489">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/js/stickUp.js" />
+        <option value="$PROJECT_DIR$/js/jquery.superslides.js" />
+        <option value="$PROJECT_DIR$/works/full/5sing/views/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -40,10 +606,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-195" />
-    <option name="y" value="6" />
-    <option name="width" value="1282" />
-    <option name="height" value="1053" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1062" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -83,17 +649,59 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="liulu" />
+              <option name="myItemId" value="resume" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="liulu" />
+              <option name="myItemId" value="resume" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="liulu" />
+              <option name="myItemId" value="resume" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resume" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resume" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="works" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resume" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resume" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resume" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resume" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -104,7 +712,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
@@ -119,30 +727,33 @@
       <option name="presentableId" value="Default" />
       <updated>1489043929436</updated>
       <workItem from="1489043930826" duration="32000" />
+      <workItem from="1489318784437" duration="9000" />
+      <workItem from="1489318807174" duration="3762000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32000" />
+    <option name="totallyTimeSpent" value="3803000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-195" y="6" width="1282" height="1053" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1062" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16385669" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.023281597" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -159,6 +770,141 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6473">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.easing.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-441">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.easypiechart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5701">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/stickUp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1760">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1754">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.waterfall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6489">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/works/full/5sing/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="408" column="0" selection-start-line="408" selection-start-column="0" selection-end-line="408" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/works/full/5sing/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/works/full/5sing/web/img/album-mod/1_124_124.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/works/full/5sing/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/works/full/5sing/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.superslides.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9387">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="319" column="97" selection-start-line="319" selection-start-column="97" selection-end-line="319" selection-end-column="97" />
           <folding />
         </state>
       </provider>
