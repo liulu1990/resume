@@ -394,7 +394,16 @@ img {
 }
 /*reffernces end*/
 /*contact start*/
-.contact-ways li {font-size:20px;color:red;}
-.contact-ways li span{color:#003bb3;}
-.contact-ways li a{color:#9bc061;font-size: 20px;}
+.contact-ways li {
+    font-size:20px;
+    color:red;
+}
+.contact-ways li span{
+    color:#00475d;
+    font-weight: bold;
+}
+.contact-ways li a{
+    color:#9bc061;
+    font-size: 20px;
+}
 /*contact end*/
