@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>二级联动</title>
+        <script>
+            function test() {
+                var optionobj = null;
+                var selectobj1 = document.createElement("select");
+                var selectobj2 = document.createElement("select");
+                document.body.appendChild(selectobj1);
+                document.body.appendChild(selectobj2);
+                var arr = ["--选择省份--", "湖北", "湖南", "河北", "河南"];
+                var arr1 = ["武汉", "黄石", "荆州", "黄冈"];
+                var arr2 = ["岳阳", "衡阳市", "益阳", "怀化市"];
+                var arr3 = ["石家庄", "张家口", "秦皇岛", "邢台"];
+                var arr4 = [".郑州", "洛阳", "开封", "许昌"];
+
+                function addChild(obj, arr) {
+                    for(var i = 0; i < arr.length; i++) {
+                        var optionobj = document.createElement("option");
+                        optionobj.innerHTML = arr[i];
+                        obj.appendChild(optionobj);
+                    }
+                }
+
+                addChild(selectobj1, arr); //创建省份下拉列表
+                // 给省份下拉列表添加改变值的方法
+                selectobj1.onchange = function() {
+                    for(var i = selectobj2.children.length - 1; i >= 0; i--) {
+                        selectobj2.children[i].remove();
+                    }
+                    switch(selectobj1.selectedIndex) {
+                        case 1:
+                            addChild(selectobj2, arr1);
+                            break;
+                        case 2:
+                            addChild(selectobj2, arr2);
+                            break;
+                        case 3:
+                            addChild(selectobj2, arr3);
+                            break;
+                        case 4:
+                            addChild(selectobj2, arr4);
+                            break;
+
+                    }
+                }
+            }
+        </script>
+    </head>
+
+    <body onload="test()">
+    </body>
+
+</html>
