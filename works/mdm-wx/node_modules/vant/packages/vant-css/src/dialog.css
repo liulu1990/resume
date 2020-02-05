@@ -1,0 +1,67 @@
+@import './common/var.css';
+
+.van-dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 85%;
+  font-size: 16px;
+  overflow: hidden;
+  transition: .3s;
+  border-radius: 4px;
+  background-color: $white;
+  transform: translate3d(-50%, -50%, 0);
+
+  &__header {
+    padding: 15px 0 0;
+    text-align: center;
+
+    &--isolated {
+      padding: 25px 0;
+    }
+  }
+
+  &__message {
+    padding: 20px;
+    line-height: 1.5;
+
+    &--has-title {
+      color: $gray-darker;
+      font-size: 14px;
+    }
+  }
+
+  &__footer {
+    overflow: hidden;
+    user-select: none;
+
+    &--buttons {
+      display: flex;
+
+      .van-button {
+        flex: 1;
+      }
+    }
+  }
+
+  .van-button {
+    border: 0;
+  }
+
+  &__confirm {
+    &,
+    &:active {
+      color: $red;
+    }
+  }
+
+  &-bounce-enter {
+    opacity: 0;
+    transform: translate3d(-50%, -50%, 0) scale(0.7);
+  }
+
+  &-bounce-leave-active {
+    opacity: 0;
+    transform: translate3d(-50%, -50%, 0) scale(0.9);
+  }
+}

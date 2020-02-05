@@ -1,0 +1,142 @@
+## Swipe 轮播
+
+### 使用指南
+``` javascript
+import { Swipe, SwipeItem } from 'vant';
+
+Vue.use(Swipe).use(SwipeItem);
+```
+
+### 代码演示
+
+#### 基础用法
+通过`autoplay`属性设置自动轮播间隔
+
+```html
+<van-swipe :autoplay="3000">
+  <van-swipe-item>1</van-swipe-item>
+  <van-swipe-item>2</van-swipe-item>
+  <van-swipe-item>3</van-swipe-item>
+  <van-swipe-item>4</van-swipe-item>
+</van-swipe>
+```
+
+#### 图片懒加载
+配合 [Lazyload](#/zh-CN/lazyload) 组件实现图片懒加载
+
+```html
+<van-swipe :autoplay="3000">
+  <van-swipe-item v-for="(image, index) in images" :key="index">
+    <img v-lazy="image" />
+  </van-swipe-item>
+</van-swipe>
+```
+
+```javascript
+export default {
+  data() {
+    return {
+      images: [
+        'https://img.yzcdn.cn/1.jpg',
+        'https://img.yzcdn.cn/2.jpg'
+      ]
+    }
+  }
+}
+```
+
+#### 监听 change 事件
+
+```html
+<van-swipe @change="onChange">
+  <van-swipe-item>1</van-swipe-item>
+  <van-swipe-item>2</van-swipe-item>
+  <van-swipe-item>3</van-swipe-item>
+  <van-swipe-item>4</van-swipe-item>
+</van-swipe>
+```
+
+```js
+export default {
+  methods: {
+    onChange(index) {
+      Toast('当前 Swipe 索引：' + index);
+    }
+  }
+}
+```
+
+#### 纵向滚动
+
+```html
+<van-swipe :autoplay="3000" vertical>
+  <van-swipe-item>1</van-swipe-item>
+  <van-swipe-item>2</van-swipe-item>
+  <van-swipe-item>3</van-swipe-item>
+  <van-swipe-item>4</van-swipe-item>
+</van-swipe>
+```
+
+#### 控制滑块大小
+
+```html
+<van-swipe :autoplay="3000" :width="300">
+  <van-swipe-item>1</van-swipe-item>
+  <van-swipe-item>2</van-swipe-item>
+  <van-swipe-item>3</van-swipe-item>
+  <van-swipe-item>4</van-swipe-item>
+</van-swipe>
+```
+
+### API
+
+| 参数 | 说明 | 类型 | 默认值 |
+|-----------|-----------|-----------|-------------|
+| autoplay | 自动轮播间隔，单位为 ms | `Number` | - |
+| duration | 动画时长，单位为 ms | `Number` | `500` |
+| loop | 是否开启循环播放 | `Boolean` | `true` |
+| vertical | 是否为纵向滚动 | `Boolean` | `false` |
+| touchable | 是否可以通过手势滑动 | `Boolean` | `true` |
+| show-indicators | 是否显示指示器 | `Boolean` | `true` |
+| initial-swipe | 初始位置，从 0 开始算 | `Number` | `0` |
+| width | 设置滑块宽度 | `Number` | `0` |
+| height | 设置滑块高度 | `Number` | `0` |
+
+### 事件
+
+| 事件名 | 说明 | 参数 |
+|-----------|-----------|-----------|
+| change | 每一页轮播结束后触发 | index, 当前页的索引 |
+
+### 方法
+
+通过 ref 可以获取到 swipe 实例并调用实例方法
+
+| 方法名 | 参数 | 返回值 | 介绍 |
+|-----------|-----------|-----------|-------------|
+| swipeTo | index: 目标位置的索引 | void | 滚动到目标位置 |
+
+### 更新日志
+
+| 版本 | 类型 | 内容 |
+|-----------|-----------|-----------|
+| 1.3.0 | bugfix | 修复特定手势下可能出现位置错误的问题
+| 1.2.1 | feature | 新增 width、height 属性
+| 1.1.15 | feature | 新增 open 方法
+| 1.1.13 | bugfix | 修复多指触控时导致空白的问题
+| 1.1.12 | bugfix | 修复浏览器滚动时会触发轮播左右滚动的问题
+| 1.1.12 | feature | 屏幕大小变化时自动调整宽度
+| 1.1.7 | feature | 新增 swipeTo 方法
+| 1.1.1 | improvement | 优化轮播性能
+| 1.1.1 | feature | 新增 touchable 属性
+| 1.1.1 | feature | 新增 vertical 属性，支持垂直布局
+| 1.0.5 | bugfix | 修复 touch 事件冒泡问题
+| 0.12.12 | feature | 新增 loop 属性，支持禁用循环滚动
+| 0.12.12 | bugfix | 修复 autoplay 设置为 0 时不会立刻取消的问题
+| 0.12.2 | bugfix | 使用 translate2d 代替 translate3d, 避免 iOS11 下的 crash 问题
+| 0.10.6 | feature | 新增 initial-swipe 属性
+| 0.10.4 | bugfix | 修复某些情况下宽度计算错误的问题
+| 0.10.1 | bugfix | 修复组件 destroyed 时未清除 autoplay timer 的问题
+| 0.10.0 | breaking change | 重写组件，调整部分 API
+| 0.9.2 | bugfix | 修复页数为一时指示器未隐藏的问题
+| 0.6.0 | feature | 新增组件
