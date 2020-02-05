@@ -1,0 +1,223 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+html {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+	vertical-align: middle;
+}
+q, blockquote {
+	quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+	content: "";
+	content: none;
+}
+a img {
+	border: none;
+}
+img {
+	vertical-align: top;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+	display: block;
+}
+/********************************************************************************************** base style
+**********************************************************************************************************/
+body {
+	font-family: Helvetica, Arial, Verdana, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', 'Meiryo', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	
+}
+a {
+	color: #000;
+}
+
+
+.only_pc {
+	display: none;
+}
+
+.hidden {
+	display: none;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.text-center{ 
+	text-align:center;
+}
+.text-left{ 
+	text-align:left;
+}
+.text-right{
+	text-align:right;
+}
+.clear {
+	clear: both;
+}
+.switch {
+	visibility: hidden;
+}
+.clearfix {
+	zoom: 1;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* Margin */
+.mb5sp {
+	margin-bottom: 5%;
+}
+.mb10sp {
+	margin-bottom: 10%;
+}
+.mb15sp {
+	margin-bottom: 15%;
+}
+.mb20sp {
+	margin-bottom: 20%;
+}
+.mb25sp {
+	margin-bottom: 25%;
+}
+.mb30sp {
+	margin-bottom: 30%;
+}
+
+.pb20sp{ padding-bottom:4%;}
+.pb30sp{ padding-bottom:5%;}
+.pb50sp{ padding-bottom:6%;}
+
+/********************************************************************************************** sp style
+**********************************************************************************************************/
+
+.w_img img{ width:100%;}
+#header{ background:#009646; padding:2%; position:fixed; width:96%; z-index:100;}
+.topul{ overflow:hidden;}
+.topul li{ float:left; padding:0 1%;}
+.topul li.li01{ width:55%;}
+.topul li.li02{ width:41%;}
+#container{ padding-top:16%;}
+#content{padding:27% 3% 10% 3%; color:#333;}
+.ttl01{ font-size:1.5em; border-bottom:2px solid #009646; padding-bottom:2%; margin-bottom:5%;}
+#footer{ background:#9bc061; padding:3% 0; font-size:0.85em;}
+.footul{ overflow:hidden; text-align:center; margin-bottom:3%; padding:0 3%;}
+.footul li{ display:inline; line-height:160%; font-size:0.85em;}
+.footul li a{ color:#005829; font-weight:bold; margin:0 1%;}
+.foottxt{ text-align:center; font-size:0.85em;}
+.foottxt span{ display:block; font-size:0.75em; line-height:200%;}
+.pagetop{position:fixed; bottom:0; right:0; display:none; width:12%;}
+.pagetop img{ width:100%;}
+.txtbox p{ font-size:120%; line-height:160%;}
+
+
+/*0203*/
+.tdbox table th, .tdbox table td {
+    border: 1px solid #333333;
+    font-size: 120%;
+	line-height:160%;
+    padding: 2% 4%;
+    text-align: left;
+	
+}
+.block{border:#333333 1px solid; padding:2% 2%;}
+.TableStyle1 dd{float:left;clear:both;font-size:120%;line-height:120%;}
+.TableStyle1 dt{float:left;clear:left;font-size:120%;width:1.5em;line-height:120%;}
+.text_style01{border-bottom:#333333 1px solid;background:#dcdcdc;}
+.box_01{border:#333333 1px solid; margin-bottom:5%;}
+.box_01 .text_style01{padding:3%;position:relative;}
+.last{margin-bottom:0;}
+
+.list dd{font-size:120%; line-height:120%; padding-bottom:2%;}
+.list dt{font-size:120%;line-height:120%;display:block;padding-bottom:2%;}
+.tex_01 dd{float:left;clear:both;font-size:120%;line-height:120%;}
+.tex_01 dt{float:left;clear:left;font-size:120%;width:1.5em;line-height:120%;}
+.ttl_txt{margin-bottom:0;}
+.p10 a{text-decoration:none;}
+.p10 a:hover{color:#085c2b; text-decoration:underline;}
+.last3{margin-bottom:0;}
+.tdbox .Table_style01{ margin-top:2%;}
+.tdbox .Table_style01 th{border:none; width:28%; padding:0 1% 1% 4%; line-height:120%; vertical-align:top;}
+.tdbox .Table_style01 td{border:none; padding:0 1% 1% 0;line-height:120%;}
+h3{font-size:125%; padding:8% 0 5% 0;}
+.TableStyle1,.TableStyle2,.TableStyle3{margin-bottom:10%;}
+.TableStyle1 th{background:#dcdcdc;}
+.TableStyle2 th{background:#dcdcdc;}
+.TableStyle3 th{background:#dcdcdc;}
+.list{padding-left:10%;}
+.last_txt{padding-left:25%;}
+.TableStyle1 th{background:#dcdcdc;}
+h3{font-size:125%; padding:8% 0 5% 0;}
+
+/*0204*/
+.btnsp01{ position:relative;}
+.btnsp01 a{ position:absolute; width:85%; right:7.6%; top:0;}
+.btnsp02{ position:relative;}
+.btnsp02 a{ position:absolute; width:85%; right:7.6%; top:4%;}
+.btnsp03{ position:relative;}
+.btnsp03 a{ position:absolute; width:88%; right:6.1%; top:0;}
+.btnsp04{ position:relative;}
+.btnsp04 a{ position:absolute; width:88%; right:6.1%; top:56%;}
+.linkbox{padding:25% 4% 0 4%; background:#ffffff;}
+.ht{padding-bottom:15%;}
+.linkbox li{float:left; width:44%;padding:0 3%;}
+.img_list .last{padding-right:0; padding-bottom:5%;}
+.img_list{padding:0 5%; margin:0 auto;}
+.img_style{margin:0 auto; padding-bottom:7%;width:90%;}
+.bg_box01{background:#ffe6a3; padding:10% 2% 8% 2%;}
+.lastbox{padding:5% 2% 5% 2%; background:#ffffff;}
+.TableStyle_01 th{background:#abcc77;}
+.TableStyle_01 td {
+    border: 1px solid #333333;
+    font-size: 0.9em;
+	line-height:160%;
+    padding: 1% 2%;
+    text-align: left;
+	background:#ffffff;
+	
+}
+
+.TableStyle_01 th{ 
+    border: 1px solid #333333;
+    font-size:1em;
+	line-height:110%;
+    text-align: center;}
+.txt_01{font-size:130%;margin-bottom:4%;}
+.green{padding:5% 3% 15% 3%; background:#ecffce;}
+.top{text-align:right;padding-top:3%;}
+.TableStyle_01 th.txt_style01{text-align:center;}
+
+.last_txt{ position:relative; padding-left:128px;}
+.last_txt span{ position:absolute; left:0; top:0;}
+.numtxt p{ position:relative; padding-left:60px;}
+.numtxt p span{ position:absolute; left:0; top:0;}
+.box_01 .text_style02{ position:relative; margin:3% 3% 3% 7%;}
+.box_01 .text_style03{ padding:20px;}
+.box_01 .text_style02 span{ position:absolute; left:-4%; top:0;}
+.box_01 .text_style03{ padding:3%;}
+
+.Aligncenter{text-align:center;}
+#sec01{padding-top:10%;}
+#sec04{padding-top:10%;}

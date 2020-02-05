@@ -1,0 +1,177 @@
+@charset "utf-8";
+@import "lfnav"; //公共布局
+@import "modSource";
+@import "modSourcegkk";
+@import "modCommon";
+@import "modSuper";
+/*图片滚动样式 start*/
+.main_img {
+    margin-bottom: 10px;
+    @include br();
+    background: $color_fff;
+    padding: 8px 8px 10px 9px;
+    a {
+        display: block;
+        img {
+            width: 752px;
+            height: 187px;
+            padding-top: 5px;
+        }
+    }
+    .cyclyImg_pager_01 {
+        float: right;
+        position: relative;
+        top: -35px;
+        right: 15px;
+        z-index: 999;
+        span {
+            width: 8px;
+            height: 8px;
+            background: url(../mod/personal/image/grzx_hs.png) no-repeat center;
+            margin-left: 5px;
+            padding-top: 3px;
+            display: inline-block;
+            overflow: hidden;
+        }
+        span.cycle-pager-active {
+            background: url(../mod/personal/image/grzx_bs.png) no-repeat center;
+            _background: none;
+        }
+    }
+}
+/*图片滚动样式 end*/
+/*左侧导航样式 end*/
+/*右侧模块 start*/
+.model_box {
+    margin-bottom: 10px;
+    ul.rt_colorBox {
+        //导航选中颜色
+        $headerNav-colors: #ffc333, #8ec165, #60aae9, #00c0ef !default;
+        @for $i from 1 through 12 {
+            $index: $i % length($headerNav-colors);
+            @if($index==0) {
+                $index: length($headerNav-colors);
+            }
+            $color: nth($headerNav-colors, $index);
+            $selector: +li;
+            $outTdIndex: $i - 1;
+            @if($outTdIndex > 0) {
+                @for $k from 1 through $outTdIndex {
+                    @if($k !=1) {
+                        $selector: $selector + (+li);
+                    }
+                }
+                > li#{$selector}.head-li {
+                    a {
+                        p {
+                            background: $color;
+                            width: 184px;
+                            height: 31px;
+                            margin-top: 8px;
+                        }
+                    }
+                }
+                > li#{$selector}.head-li:hover {
+                    a {
+                        color: $color;
+                    }
+                }
+            }
+            @else {
+                > li.head-li {
+                    a {
+                        p {
+                            background: $color;
+                            width: 184px;
+                            height: 31px;
+                            margin-top: 8px;
+                        }
+                    }
+                }
+                > li.head-li:hover {
+                    a {
+                        color: $color;
+                    }
+                }
+            }
+        }
+        li {
+            @include fl();
+            margin-right: 11px;
+            width: 184px;
+            height: 79px;
+            @include fc();
+            background: url(../mod/personal/image/grzx_tb.png) no-repeat center;
+            &:hover {
+                background: url(../mod/personal/image/grzx_tbxz.png) no-repeat center;
+            }
+            a {
+                display: inline-block;
+                color: lighten($ywColor, 20%);
+                font-size: $global-font-size+6;
+                font-weight: bold;
+                padding: 16px 0 12px 0;
+                p {
+                    font-size: $global-font-size;
+                    color: $color_fff;
+                    padding-top: 8px;
+                }
+            }
+        }
+        li.lt {
+            margin-right: 0;
+        }
+    }
+}
+/*右侧模块 end*/
+/*右侧模块列表 start*/
+.model_column {
+    background: $color_fff;
+    @include br();
+    padding: 9px 9px;
+    .column_01,
+    .column_02 {
+        @include br();
+        @include wh();
+        @include fl();
+        h3 {
+            a {
+                display: block;
+                background: #f9f8f5;
+                padding: 14px 0 14px 19px;
+                color: $ywColor;
+                font-size: $global-font-size+2;
+                font-weight: bold;
+            }
+        }
+        .bk_line {
+            margin-left: -1px;
+            padding-left: 1px;
+            width: 370px;
+            @include bkColorline(2px, solid, $bkLineColor);
+        }
+        .bk_lineTwo {
+            @include bkColorline(2px, solid, $LineSecond);
+        }
+        .bk_lineThird {
+            @include bkColorline(2px, solid, $LineThird);
+        }
+        .bk_lineLast {
+            @include bkColorline(2px, solid, $LineLast);
+        }
+        .model_sx {
+            padding: 26px 14px;
+            span {
+                padding-left: 40px;
+            }
+        }
+    }
+    .column_02 {
+        margin: 0 0 9px 10px;
+    }
+    .last {
+        margin-bottom: 0;
+    }
+    margin-bottom: 10px;
+}
+/*右侧模块列表 end*/
