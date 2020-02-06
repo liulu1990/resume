@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+/*学员考试右侧 start*/
+
+.wbk {
+    background: $color_fff;
+    .exam_all {
+        padding: 10px 10px;
+        @include br();
+        border-top: 0;
+        .exam_fl {
+            @include fl();
+            @include br();
+            margin: 0 10px 10px 0;
+            width: 170px;
+            .exam_flp {
+                margin: 0 0 10px 10px;
+                h3 {
+                    color: $ywColor;
+                    font-size: $global-font-size+4;
+                    margin-bottom: 10px;
+                    display: inline-block;
+                }
+                ul.tit_area {
+                    li {
+                        @include fl();
+                        margin-right: 5px;
+                        margin-bottom: 5px;
+                        a {
+                            display: block;
+                            background: $color_fff;
+                            line-height: 25px;
+                            width: 25px;
+                            height: 25px;
+                            color: $main_color;
+                            @include br();
+                            @include fc();
+                            &:hover {
+                                background: $lsColor;
+                                color: $color_fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .exam_fr {
+            padding: 5px 5px;
+            @include fr();
+            width: 778px;
+            @include br();
+            .tit_exam {
+                line-height: 30px;
+                height: 30px;
+                border: none;
+                span {
+                    font-size: $global-font-size+4;
+                }
+            }
+            .mod_exam {
+                margin-bottom: 10px;
+                @include br();
+                p {
+                    color: $ywColor;
+                    font-size: $global-font-size+2;
+                    line-height: 180%;
+                    border-bottom: $l_sgray 1px dashed;
+                    padding-left: 28px;
+                }
+                p.small_eaxm {
+                    border-bottom: 0;
+                }
+                p.big_exam {
+                    color: $ywColor;
+                    font-size: $global-font-size+2;
+                }
+                p.ex_sl {
+                    font-weight: bold;
+                    border-bottom: 0;
+                }
+                textarea {
+                    color: $ywColor;
+                    font-size: $global-font-size+2;
+                    margin-left: 28px;
+                    @include br();
+                    width: 663px;
+                    height: 40px;
+                    overflow-y: auto;
+                }
+            }
+            .mod_last {
+                margin-bottom: 0;
+            }
+            .cource_examk {
+                margin-bottom: 0;
+                border-bottom: 0;
+            }
+        }
+    }
+}
+
+
+/*学员考试右侧 end*/
+
+.tab_exam {
+    padding-top: 10px;
+}
+
+.spe_dir {
+    width: 440px;
+    background: $color_fff;
+    @include br();
+    ul.news-click {
+        li {
+            height: 30px;
+            line-height: 30px;
+            padding-left: 10px;
+            position: relative;
+            a{padding-left:10px;}
+            span {
+                color: $ywColor;
+                font-size: $global-font-size+2;
+                font-family: "Microsoft YaHei";
+                @include fr();
+                padding-right:20px;
+            }
+        }
+    }
+}

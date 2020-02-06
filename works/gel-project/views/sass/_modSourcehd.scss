@@ -1,0 +1,232 @@
+@charset "utf-8";
+@import "font";
+@import "public";
+@import "helper";
+@import "modSourcedtl";
+.source_hidden {
+    padding: 8px 9px 13px 9px;
+    border: #dadada 1px solid;
+    h3.hid_cor {
+        background: $courceColor;
+        padding-left: 14px;
+        margin-bottom: 10px;
+        span {
+            color: $ywColor;
+            font-size: $global-font-size+2;
+            font-weight: normal;
+            font-family: $global-hei;
+            margin-right: 50px;
+            height: 40px;
+            line-height: 40px;
+        }
+    }
+    .source_main {
+        margin-bottom: 10px;
+        .swf_video {
+            @include fl();
+            width: 649px;
+            img {
+                width: 649px;
+                height: 368px;
+            }
+        }
+        .source_kl {
+            width: 311px;
+            li {
+                a {
+                    color: #bbbdc0;
+                }
+            }
+            li.s_active {
+                a {
+                    color: $color_fff;
+                }
+            }
+        }
+        .source_tt {
+            @include fr();
+            width: 311px;
+            border: #c9c9c9 1px solid;
+            .dk_content {
+                padding: 18px 15px 36px 15px;
+                background: $courceColor;
+                height: 275px;
+                overflow-y: scroll;
+                border-bottom: #c8c8c8 1px solid;
+                .dk_lp {
+                    border-bottom: #c3c3c3 1px dashed;
+                    padding: 7px 0 2px 0;
+                    .dk_source {
+                        .cource_fl {
+                            @include fl();
+                            span {
+                                padding: 6px 12px 6px 15px;
+                            }
+                            span.time_cource {
+                                background: url("../../views/mod/supermarket/image/kcxq/time.jpg")no-repeat left center;
+                            }
+                            p.cource_tik {
+                                color: #929292;
+                            }
+                        }
+                        .cource_fr {
+                            @include fr();
+                            span {
+                                color: #969696;
+                                font-size: $global-font-size;
+                            }
+                            img {
+                                padding-right: 4px;
+                            }
+                        }
+                        span.time_cource {
+                            color: $color_fff;
+                            font-size: 10px;
+                        }
+                    }
+                    p {
+                        color: #686868;
+                        font-size: $global-font-size;
+                        margin: 3px 0;
+                        line-height: 160%;
+                    }
+                    p.time_color {
+                        color: #7db649;
+                    }
+                }
+            }
+            .add_note {
+                padding: 0 8px;
+                border-top: none;
+                span {
+                    background: url("../../views/mod/supermarket/image/kcxq/note.jpg")no-repeat left center;
+                    color: #8e8e8e;
+                    font-size: $global-font-size+2;
+                }
+                .note_all {
+                    margin: 7px 8px;
+                    padding: 7px 8px;
+                    span {
+                        padding-left: 28px;
+                    }
+                    border: #c9c9c9 1px solid;
+                }
+            }
+        }
+    }
+}
+
+.lx_z {
+    .kc_tit {
+        padding-bottom: 9px;
+        .sehd {
+            @include fl();
+            color: #383838;
+            font-weight: bold;
+            font-size: $global-font-size+6;
+        }
+        span {
+            @include fl();
+            margin-left: 20px;
+            img {
+                padding-right: 4px;
+            }
+        }
+    }
+}
+
+.lx_kk {
+    border-bottom: #fd5439 1px solid;
+}
+
+
+/*视频轮播 start*/
+
+.slideGroup .slideBox {
+    overflow: hidden;
+    zoom: 1;
+    padding: 0 0 0 42px;
+    position: relative;
+    background: #fbfaf6;
+}
+
+.slideGroup .sPrev,
+.slideGroup .sNext {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 30px;
+    height: 140px;
+    border: 1px solid #ddd;
+    background: url(../../views/mod/supermarket/image/kcxq/icoLeft.jpg) center center no-repeat #85c14d;
+}
+
+.slideGroup .sNext {
+    left: auto;
+    right: 0;
+    width: 30px;
+    height: 140px;
+    background: url(../../views/mod/supermarket/image/kcxq/icoRight_on.jpg) center center no-repeat #85c14d;
+}
+
+.slideGroup .sPrev:hover,
+.slideGroup .sNext:hover {
+    border-color: #f60;
+}
+
+.slideGroup .parBd ul {
+    overflow: hidden;
+    zoom: 1;
+    li {
+        margin: 0 8px;
+        float: left;
+        _display: inline;
+        overflow: hidden;
+        text-align: center;
+        width: 150px;
+        .pic {
+            text-align: center;
+            img {
+                width: 150px;
+                height: 100px;
+                display: block;
+                padding: 2px;
+                border: 1px solid #ccc;
+            }
+            a:hover img {
+                border-color: #999;
+            }
+        }
+        .title {
+            line-height: 24px;
+            a {
+                color: #696969;
+                font-size: $global-font-size;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+}
+
+
+/*视频轮播 end*/
+
+.slideGroup {
+    .slide_bone {
+        ul.cource_name {padding-right:20px;
+            li {
+                width: 150px;
+                a {
+                    width:140px;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

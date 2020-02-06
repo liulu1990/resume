@@ -1,0 +1,24 @@
+@charset "utf-8";
+body{
+    background: #eceff4;
+}
+@mixin fl_column01($leftWidth:670px,$leftFlt:left){width:670px;float:left;}
+@mixin fr_column01($leftWidth:300px,$rightRlt:right){width:300px;float:right;}
+
+@mixin fl($Fleft:left) {
+    float: left;
+}
+
+@mixin fr($Fright:right) {
+    float: right;
+}
+
+@mixin fc($Fcenter:center) {
+    text-align: center;
+}
+/*整站边框样式*/
+
+@mixin br($brWidht: 1px, $brLine: solid, $brColor: lighten($ywColor, 40%)) {
+    border: $brWidht $brLine $brColor;
+}
+

@@ -1,0 +1,54 @@
+@charset "utf-8";
+.box_lf{ul.left_menu{
+ background-color: $l_menu;
+    li {
+            a {
+                margin-top: 1px;
+                height: 40px;
+                line-height: 40px;
+                background-color: $main_color;
+                padding-left: 68px;
+                color: $color_fff;
+                font-size: 16px;
+                display: block;
+            }
+            ul {
+                li {
+                    a {
+                        height: 30px;
+                        line-height: 30px;
+                        background-color: $color_fff;
+                        padding-left: 73px;
+                        color: $ywColor;
+                        font-size: $global-font-size+2;
+                        display: block;
+                        &.aat {
+                            background-color: #7baed0;
+                            color: $color_fff;
+                        }
+                    }
+                    ul {
+                        li.active{background-color: #e1e2e3;}
+                        li {
+                            a {
+                                background: url(../../views/mod/resource/image/treeline.png) no-repeat 52px 7px;
+                                color: $ywColor;
+                                background-color: $color_fff;
+                                &:active {
+                                    background-color: #e1e2e3;
+                                }
+                              }
+                            a.active{color:#fff;background-color: #e1e2e3;}
+                            a:hover{background-color: #e1e2e3;}
+                           
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.box_resorce{margin-left:10px;@include fr();width:770px;}
+.special_fl01{@include fl();width:380px;background: $color_fff;@include br();}
+.special_fr01{@include fr();width:380px;background: $color_fff;@include br();margin-bottom: 10px;}
+.special_all{background: $color_fff;@include br();margin-bottom: 10px;min-height:640px;.page_res{padding:20px 130px 20px 0;}}

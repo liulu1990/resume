@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>密码找回</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="../../css/style.css">
+</head>
+<body>
+    <div class="teacher_detail teacher">
+        <div class="tea_bak">
+            <h2>密码找回</h2>
+        </div>
+        <div class="tea_rej">
+            <form name="form1" method="post" action="2.html" onsubmit="return check()">
+                <label for="male">登录名：</label>
+                <p>
+                    <input id="text1" type="text" name="text1" onblur="check()">
+                </p>
+                <br/>
+                <label for="male">密码提示问题：</label>
+                <p>
+                   <input id="text10" type="text" name="text10" onblur="check()"> 
+                   <select name="select" id="select_k1" class="xla_k">
+                        <option value="-请选择-" selected = "selected">-请选择-</option>
+                        <option value="您的生日">您的生日</option>
+                        <option value="您喜欢的动物">您喜欢的动物</option>
+                        <option value="您喜欢的人">您喜欢的人</option>
+                        <option value="您喜欢的城市">您喜欢的城市</option>
+                    </select>
+                </p>
+                <br/>
+                <label for="male" style="margin-top:20px;">密码提示答案：</label>
+                <p>
+                    <input id="text11" type="text" name="text11" onblur="check()">
+                </p>
+               
+                <br/>
+                <p><a href="javascript:void(0)" class="cmt rejc ">确定</a><a href="javascript:void(0)" class="ext rejc ">取消</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
