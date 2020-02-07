@@ -1,10 +1,4 @@
-/**
- * @Author: Jzy
- * @Date: 2017/12/12
- * @Last Modified by:   jzy
- * @Last Modified time: 2018-02-21 17:52:11
- */
-function getRandom(a, b){
+﻿function getRandom(a, b){
     return Math.floor(Math.random() * (b - a + 1)) + a
 }
 

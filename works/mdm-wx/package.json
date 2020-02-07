@@ -2,13 +2,9 @@
   "name": "vue-webpack4-cli",
   "description": "A Vue.js project",
   "version": "1.0.0",
-  "author": "jiaozhiye <jiaozhiye@163.com>",
+  "author": "lulu",
   "private": true,
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jiaozhiye/mdm-work/issues"
-  },
-  "homepage": "https://github.com/jiaozhiye/mdm-work",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --inline --progress --config build/webpack.dev.conf.js --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --config build/webpack.prod.conf.js"

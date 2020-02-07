@@ -407,3 +407,13 @@ img {
     font-size: 20px;
 }
 /*contact end*/
+/* add start */
+.skill-content ul {
+	color:#000
+}
+.skill-content li {
+	font-size:18px;
+    line-height:2;
+    text-align: left;
+}
+/* add end */

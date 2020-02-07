@@ -1,6 +1,6 @@
 # mobile-vue-cli
 
-> A Vue.js project by jzy
+> A Vue.js project by ll
 
 ## Build Setup
 
@@ -15,4 +15,4 @@ npm run dev
 npm run build
 ```
 
-欢迎访问个人 [github](https://github.com/jiaozhiye/) 主页.
+欢迎访问个人 [github](https://github.com/liulu1990) 主页.
