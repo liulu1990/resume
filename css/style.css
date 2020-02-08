@@ -412,8 +412,28 @@ img {
 	color:#000
 }
 .skill-content li {
-	font-size:18px;
+	font-size:14px;
     line-height:2;
     text-align: left;
+    /* font-weight: bold; */
+}
+.btnDownload {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    border: 3px solid #5b4c5c;
+    padding: 10px 10px;
+    display: inline-block;
+    color: #5b4c5c;
+    transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+    margin-top: 18px;
+}
+.btnDownload:hover {
+    background: #5b4c5c;
+    color: #ffffff;
+    text-decoration: none;
 }
 /* add end */
